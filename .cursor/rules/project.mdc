@@ -1,0 +1,29 @@
+---
+description: Project rules
+alwaysApply: true
+---
+
+# Project: conversational search over product manuals and forums
+
+## How to work with me
+I'm learning AI/RAG engineering through this project. Before implementing any
+retrieval, chunking, embedding, or parsing change, explain the design choice,
+the alternatives, and the tradeoffs in 3-5 bullets.
+- Do not add LangChain, LlamaIndex, or other frameworks without asking.
+- Keep every pipeline choice configurable via YAML in configs/.
+- Every new retrieval strategy must be runnable through eval_retrieval.py.
+- Prefer small, single-purpose scripts I can read.
+
+## Environment
+- Intel Mac (x86_64), macOS 26. Python 3.12 in .venv, managed with uv
+  (use `uv pip install`, not pip).
+- No Homebrew. Prefer packages with prebuilt Intel-Mac wheels; avoid PyTorch.
+- OCR: ocrmac (Apple's built-in text recognition). Vision: Claude API.
+- API key lives in .env (loaded with python-dotenv). Never print or hardcode it.
+
+## Project layout
+- data/       source PDFs, rendered pages, parsed text
+- eval/       questions.jsonl test set
+- ingest/     parsing and chunking scripts
+- configs/    experiment configs
+- results/    experiment results

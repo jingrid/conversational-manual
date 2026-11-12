@@ -1,0 +1,33 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Page 2: OCR vs Claude</title>
+<style>
+  body { font: 14px system-ui, sans-serif; margin: 16px; }
+  main { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  img { width: 100%; }
+  pre { white-space: pre-wrap; font-size: 13px; }
+</style>
+<h1>Page 2</h1>
+<p>OCR: 6 lines, mean confidence 0.917 | Claude: 1985 input / 335 output tokens, stop_reason=end_turn</p>
+<main>
+  <section><h2>Scan</h2><img src="../pages/page_002.png" alt="Scan of page 2"></section>
+  <section><h2>Apple Vision OCR</h2><pre>HASSELBLAD
+SWC/M
+Biogon
+4.5/38
+500C/M
+Instruction Manual</pre></section>
+  <section><h2>Claude (claude-opus-5-5)</h2><pre># HASSELBLAD
+
+[Diagram: Line drawing of a Hasselblad 500C/M camera body with a folding waist-level viewfinder hood on top, the winding crank on the left side, and a lens mounted on the front. The top of the body is marked &quot;HASSELBLAD&quot;. The lens barrel is marked &quot;Carl Zeiss&quot;, &quot;Planar 2,8/80&quot;, &quot;T*&quot;, and a serial number &quot;6659711&quot;.]
+
+# SWC/M
+
+[Diagram: Line drawing of a Hasselblad SWC/M camera with an optical viewfinder mounted on top, a winding crank at the lower left, and a large wide-angle lens on the front. The top of the body is marked &quot;HASSELBLAD&quot;. The lens barrel is marked &quot;Biogon 4,5/38&quot;, &quot;Carl Zeiss&quot;, &quot;T*&quot;, and a serial number &quot;666970&quot;. There is a handwritten ink mark on the lens front.]
+
+# 500C/M
+
+[Two horizontal blue stripes across the lower part of the page.]
+
+**Instruction Manual**</pre></section>
+</main>

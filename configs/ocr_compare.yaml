@@ -1,0 +1,41 @@
+# Settings for ingest/render_pages.py and ingest/ocr_compare.py.
+# Paths are relative to the project root.
+
+pdf: data/hasselblad_500c_m-swc_m.pdf
+pages_dir: data/pages
+compare_dir: data/compare
+
+render:
+  dpi: 200
+  colorspace: rgb   # rgb or gray
+
+ocr:
+  recognition_level: accurate   # accurate, balanced, or fast
+  languages: [en-US]
+
+extract:
+  parsed_dir: data/parsed
+  exclude_pages: [1]   # page 1 is a scanner's notice, not the manual (see DECISIONS.md)
+
+report:
+  show_line_confidence_below: 0.9   # print the score beside OCR lines under this value
+
+claude:
+  model: claude-opus-5-5
+  effort: high        # low, medium, high, xhigh, max
+  max_tokens: 16000
+  prompt: |
+    Transcribe this scanned page from a product manual into markdown.
+
+    Be faithful to the page:
+    - Copy the text exactly as printed, including part names, numbers, and units.
+      Do not correct, summarize, or add anything.
+    - Keep the reading order. Use markdown headings only where the page shows a heading.
+    - Reproduce tables as markdown tables, keeping every row and column.
+    - Replace each diagram, photo, or illustration with a bracketed description in
+      place, in the form [Diagram: what it shows, including every callout label or
+      number and what it points to].
+    - Write [illegible] for anything you cannot read rather than guessing.
+    - Mention color only when it carries meaning on the page, such as a red indicator.
+
+    Output only the transcription, with no preamble or closing remarks.

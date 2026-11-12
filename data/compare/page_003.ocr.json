@@ -1,0 +1,272 @@
+[
+  {
+    "text": "Guarantee",
+    "confidence": 1.0,
+    "bbox": [
+      0.09059775467938255,
+      0.4499011665038388,
+      0.10990038310011774,
+      0.02125029814870738
+    ]
+  },
+  {
+    "text": "If within one year from date of original pur-",
+    "confidence": 1.0,
+    "bbox": [
+      0.08904109073202064,
+      0.4245614034868421,
+      0.4126712328767123,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "chase, this Hasselblad photographic product",
+    "confidence": 1.0,
+    "bbox": [
+      0.09075342054794526,
+      0.4035087718421053,
+      0.4109589041095891,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "fails to function because of defects in materials",
+    "confidence": 1.0,
+    "bbox": [
+      0.09075342936643829,
+      0.3859649125438597,
+      0.410958904109589,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "or workmanship, Victor Hasseiblad Aktiebolag",
+    "confidence": 1.0,
+    "bbox": [
+      0.0907534235616439,
+      0.36315789452631586,
+      0.4109589041095891,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "will, at its option, either repair or replace the",
+    "confidence": 1.0,
+    "bbox": [
+      0.09229839367974124,
+      0.33993079602842236,
+      0.40958041360933484,
+      0.0272361420748527
+    ]
+  },
+  {
+    "text": "product, provided the purchaser returns the",
+    "confidence": 1.0,
+    "bbox": [
+      0.09051225191267133,
+      0.31862483287218335,
+      0.41145076490428356,
+      0.028886035450717773
+    ]
+  },
+  {
+    "text": "product to a Hasselblad authorized service sta-",
+    "confidence": 1.0,
+    "bbox": [
+      0.09229706355187517,
+      0.30164571573659194,
+      0.4112327262146832,
+      0.023365343662730464
+    ]
+  },
+  {
+    "text": "tion and submits proof of date of original pur-",
+    "confidence": 1.0,
+    "bbox": [
+      0.09075342878424654,
+      0.2807017544736842,
+      0.41267123287671237,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "chase.",
+    "confidence": 1.0,
+    "bbox": [
+      0.09246575404109589,
+      0.26140350877192986,
+      0.06164383561643835,
+      0.01754385964912275
+    ]
+  },
+  {
+    "text": "Service and maintenance",
+    "confidence": 1.0,
+    "bbox": [
+      0.5325342492123287,
+      0.45438596500000006,
+      0.26369863013698625,
+      0.019298245614035148
+    ]
+  },
+  {
+    "text": "Cameras and lenses put to heavy-duty profes-",
+    "confidence": 1.0,
+    "bbox": [
+      0.53253425,
+      0.4280701755409356,
+      0.410958904109589,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "sional use should be serviced by an authorized",
+    "confidence": 1.0,
+    "bbox": [
+      0.5325342436521527,
+      0.40877192969924814,
+      0.4092465753424658,
+      0.021052631578947434
+    ]
+  },
+  {
+    "text": "Hasselblad service center at regular intervals.",
+    "confidence": 1.0,
+    "bbox": [
+      0.53253425,
+      0.38771929827485385,
+      0.410958904109589,
+      0.021052631578947434
+    ]
+  },
+  {
+    "text": "The lubrication in cameras and lenses that are",
+    "confidence": 1.0,
+    "bbox": [
+      0.53253425,
+      0.3684210527046784,
+      0.410958904109589,
+      0.019298245614035037
+    ]
+  },
+  {
+    "text": "unused for long periods, (6 months or more)",
+    "confidence": 1.0,
+    "bbox": [
+      0.5325342470205479,
+      0.34385964889473686,
+      0.41095890410958913,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "can dry out. This may lead to increased wear,",
+    "confidence": 1.0,
+    "bbox": [
+      0.5325342517337327,
+      0.32456140350877194,
+      0.4126712328767125,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "and a poorer operation. To avoid drying, ope-",
+    "confidence": 1.0,
+    "bbox": [
+      0.5324312217135753,
+      0.3024856837637441,
+      0.41115606647648206,
+      0.024414532644706832
+    ]
+  },
+  {
+    "text": "rate stored equipment from time to time, ex-",
+    "confidence": 1.0,
+    "bbox": [
+      0.5325342477054794,
+      0.28421052652631573,
+      0.410958904109589,
+      0.021052631578947434
+    ]
+  },
+  {
+    "text": "posing a couple of times at each shutter speed.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5323917668702781,
+      0.26082474948027357,
+      0.41289541166122634,
+      0.025304563421952087
+    ]
+  },
+  {
+    "text": "In this way the lubrication will be distributed in",
+    "confidence": 1.0,
+    "bbox": [
+      0.5324002413825432,
+      0.24125128429108755,
+      0.4112179638588265,
+      0.023813143111111823
+    ]
+  },
+  {
+    "text": "the mechanism and the equipment will be kept",
+    "confidence": 1.0,
+    "bbox": [
+      0.5325342479238014,
+      0.22105263131578945,
+      0.41267123287671237,
+      0.021052631578947434
+    ]
+  },
+  {
+    "text": "in good condition.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5325342479594748,
+      0.2000000000292398,
+      0.16609589041095896,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "Copyright \u00a9 1985, Victor Hasselblad AB..",
+    "confidence": 1.0,
+    "bbox": [
+      0.09238215028645608,
+      0.13313331811135543,
+      0.38198784606097497,
+      0.025104295161732404
+    ]
+  },
+  {
+    "text": "All rights reserved. No part of this material may be reproduced, stored in a retrieval system, or",
+    "confidence": 1.0,
+    "bbox": [
+      0.09238119543434364,
+      0.10204377356785,
+      0.8546315545905127,
+      0.027308308450799235
+    ]
+  },
+  {
+    "text": "transmitted, in any form or by any means, electronic, mechanical, photocopy, recording, or other-",
+    "confidence": 1.0,
+    "bbox": [
+      0.09239704846865338,
+      0.08105280562129025,
+      0.8546027092084493,
+      0.027894450907121615
+    ]
+  },
+  {
+    "text": "wise, without the prior written permission of the Company.",
+    "confidence": 1.0,
+    "bbox": [
+      0.09574759298782529,
+      0.0592234723069478,
+      0.5174008722174657,
+      0.02805240363405459
+    ]
+  }
+]

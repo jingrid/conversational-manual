@@ -1,0 +1,64 @@
+[Diagram: Exploded view of a Hasselblad camera. The camera body is in the center, with the focusing hood and focusing screen lifted off above it. The lens is detached to the right, the winding crank is detached to the lower left, and the film magazine is attached at the rear. Callouts:
+- 1 – focusing hood (top)
+- 2 – focusing screen beneath the hood
+- 3 – screen retaining clip at the top edge of the body
+- 4 – lens focusing ring with distance scale
+- 5 – button on the lens barrel for cross-coupling of shutter speed and aperture rings
+- 6 – central index on the lens
+- 7 – depth-of-field scale on the lens
+- 8 – aperture ring with aperture scale
+- 9 – shutter speed selector ring
+- 10 – PC flash terminal on the side of the lens
+- 11 – external and internal lens accessory mounts at the front of the lens
+- 12 – exposure value scale on the lens barrel
+- 13 – exposure value index on the lens barrel
+- 14 – lens lock release button on the front of the body, right of the lens mount
+- 15 – main drive axle at the bottom of the lens mount
+- 16 – threaded cable release socket at the lower front of the body
+- 17 – main camera release button at the lower front of the body
+- 18 – time exposure catch at the lower front of the body
+- 19 – winding crank bayonet on the side of the body
+- 20 – pre-release button on the side of the body
+- 21 – shutter status indicator on the side of the body
+- 22 – strap lug on the side of the body
+- 23 – winding crank (detached)
+- 24 – winding crank index on the detached crank
+- 25 – frame counter on the side of the magazine
+- 26 – magazine status indicator on the side of the magazine
+- 27 – film plane indicator on the side of the magazine
+- 28 – film winding crank on the side of the magazine
+- 29 – magazine designation (marked "12") on the side of the magazine
+- 30 – magazine catch on top of the magazine]
+
+1. Focusing hood
+2. Focusing screen
+3. Screen retaining clip
+4. Lens focusing ring with distance scale
+5. Button for cross-coupling of shutter speed and aperture rings
+6. Central index
+7. Depth-of-field scale
+8. Aperture ring with aperture scale
+9. Shutter speed selector ring
+10. PC flash terminal
+11. External and internal lens accessory mounts
+12. Exposure value scale
+13. Exposure value index
+14. Lens lock release button
+15. Main drive axle
+16. Threaded cable release socket
+17. Main camera release button
+18. Time exposure catch
+19. Winding crank bayonet
+20. Pre-release button
+21. Shutter status indicator
+22. Strap lug
+23. Winding crank
+24. Winding crank index
+25. Frame counter
+26. Magazine status indicator
+27. Film plane indicator
+28. Film winding crank
+29. Magazine designation
+30. Magazine catch
+
+2

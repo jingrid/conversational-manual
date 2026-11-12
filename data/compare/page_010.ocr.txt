@@ -1,0 +1,54 @@
+Focusing and depth of field
+The lens is focused with the focusing ring (the
+rubberized ring closest to the camera body).
+Rotate the ring until the viewfinder image is
+sharp.
+The distance between the subject and the film
+plane is read off the focusing ring's distance
+scale opposite the central index. The distance in
+meters is shown in white numerals, and the dis-
+tance in feet is in orange numerals.
+Objects closer or further away than the selected
+distance can be sharp, within certain limits. The
+borders for this field of sharp focus, i.e. depth of
+field, vary with the f/ stop.
+A smallf/ stop yields wide depth of field.
+A large f/ stop yields narrow depth of field.
+The depth of field available at any given f/ stop
+can be read off the depth-of-field scale located
+on both sides of the central index.
+Viewing depth of field
+Depth of field may be viewed by stopping down
+the diaphragm to the required aperture, and
+viewing the resulting image on the ground glass.
+To stop down the diaphragm, simply slide the
+manual preview button downwards until it locks
+into the preview position.
+To release the button, and reopen the dia-
+phragm, press in the lower section of the button.
+Infrared photography
+Infrared (IR) rays (wavelengths longer than 800
+nanometers) are refracted to a focal plane some-
+what behind the focal plane of the visible light
+images formed on the focusing screen. To com-
+pensate for this discrepancy, proceed as follows:
+Focus as usual on the focusing screen. Then
+rotate the focusing ring until the distance set is
+opposite the red IR index.
+5 30 60 125250 500
+22 16 11 8 5,6
+11
+15
+25.
+11
+20
+50
+500c/M|E
+Lens removal
+Depress the lens release button and rotate the
+lens counter-clockwise about one fifth of a turn
+to remove it.
+Note. Lens removal is only possible if the came-
+ra is cocked (fully wound), and not in the pre-re-
+leased mode.
+7

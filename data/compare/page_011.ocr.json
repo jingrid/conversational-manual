@@ -1,0 +1,322 @@
+[
+  {
+    "text": "Film magazines",
+    "confidence": 1.0,
+    "bbox": [
+      0.07876712416523972,
+      0.9315789476535088,
+      0.15924657534246572,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "Attaching the magazine",
+    "confidence": 1.0,
+    "bbox": [
+      0.08047945419520545,
+      0.889473684495614,
+      0.23630136986301364,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "Ensure that the magazine slide is fully inserted,",
+    "confidence": 1.0,
+    "bbox": [
+      0.080479455479452,
+      0.8684210526608187,
+      0.4109589041095891,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "and that the indicator is white. If the status indi-",
+    "confidence": 1.0,
+    "bbox": [
+      0.07866648419097486,
+      0.8472431741301442,
+      0.4111476271119836,
+      0.021710318013241414
+    ]
+  },
+  {
+    "text": "cator does not show a white signal then refer to",
+    "confidence": 1.0,
+    "bbox": [
+      0.07876711815068504,
+      0.8263157892982456,
+      0.410958904109589,
+      0.021052631578947434
+    ]
+  },
+  {
+    "text": "the instruction on page 9.",
+    "confidence": 1.0,
+    "bbox": [
+      0.07876712539383558,
+      0.8052631579122806,
+      0.2106164383561644,
+      0.019298245614035148
+    ]
+  },
+  {
+    "text": "Locate the magazine on the lower support hooks",
+    "confidence": 1.0,
+    "bbox": [
+      0.08047945054794528,
+      0.7736842102982456,
+      0.410958904109589,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "- see that it is fully seated on the supports.",
+    "confidence": 1.0,
+    "bbox": [
+      0.0769560031890711,
+      0.7514400437696666,
+      0.3512061132143622,
+      0.022457919204444177
+    ]
+  },
+  {
+    "text": "Slide the magazine catch to the right and hold it",
+    "confidence": 1.0,
+    "bbox": [
+      0.08047944689640425,
+      0.7228070174561404,
+      0.41267123287671237,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "there whilst swinging the magazine forward into",
+    "confidence": 1.0,
+    "bbox": [
+      0.0785270733829404,
+      0.6958729498246392,
+      0.41321555882284083,
+      0.03160839080810551
+    ]
+  },
+  {
+    "text": "contact with the camera's rear plate. Release the",
+    "confidence": 1.0,
+    "bbox": [
+      0.08047944863013705,
+      0.680701754239766,
+      0.41095890410958896,
+      0.021052631578947434
+    ]
+  },
+  {
+    "text": "magazine catch, ensuring that it returns to the",
+    "confidence": 1.0,
+    "bbox": [
+      0.08219177672945212,
+      0.6578947367192982,
+      0.4092465753424658,
+      0.02280701754385972
+    ]
+  },
+  {
+    "text": "locked position on the left side.",
+    "confidence": 1.0,
+    "bbox": [
+      0.07876712587328763,
+      0.6385964912280702,
+      0.2585616438356164,
+      0.021052631578947434
+    ]
+  },
+  {
+    "text": "Remove the magazine slide and the camera is",
+    "confidence": 1.0,
+    "bbox": [
+      0.08378317226806964,
+      0.6058660796592708,
+      0.40949604609241225,
+      0.02409219239887439
+    ]
+  },
+  {
+    "text": "ready to shoot.",
+    "confidence": 1.0,
+    "bbox": [
+      0.08036869024716989,
+      0.584448498170042,
+      0.1268825400365542,
+      0.020399497684679524
+    ]
+  },
+  {
+    "text": "Removing the magazine",
+    "confidence": 1.0,
+    "bbox": [
+      0.08390411179366436,
+      0.4508771932894736,
+      0.24143835616438353,
+      0.024561403508771895
+    ]
+  },
+  {
+    "text": "Ensure that the camera is cocked (fully wound",
+    "confidence": 1.0,
+    "bbox": [
+      0.08390410617865302,
+      0.4298245612865498,
+      0.4092465753424658,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "on).",
+    "confidence": 0.5,
+    "bbox": [
+      0.08390410965325343,
+      0.4052631581359649,
+      0.035958904109589046,
+      0.019298245614035148
+    ]
+  },
+  {
+    "text": "The magazine and camera indicator windows",
+    "confidence": 1.0,
+    "bbox": [
+      0.08198208968231177,
+      0.37399460072243906,
+      0.4114273019032936,
+      0.02809662902564336
+    ]
+  },
+  {
+    "text": "should both display white. (If the magazine indi-",
+    "confidence": 1.0,
+    "bbox": [
+      0.08198587825587832,
+      0.3509074167056826,
+      0.41481133029885486,
+      0.028737874616656334
+    ]
+  },
+  {
+    "text": "cator window shows a red signal then follow the",
+    "confidence": 1.0,
+    "bbox": [
+      0.08390411325342464,
+      0.3350877195263158,
+      0.410958904109589,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "instructions on the next page.)",
+    "confidence": 1.0,
+    "bbox": [
+      0.08219178375428074,
+      0.31403508798245616,
+      0.25513698630136994,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "Insert the magazine slide into the magazine.",
+    "confidence": 1.0,
+    "bbox": [
+      0.0837634542017562,
+      0.28136971169845326,
+      0.3683931011043183,
+      0.024218770077353957
+    ]
+  },
+  {
+    "text": "Slide the magazine catch to the right.",
+    "confidence": 1.0,
+    "bbox": [
+      0.08561643755136991,
+      0.2508771927719299,
+      0.30650684931506844,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "Swing back the magazine, and lift it off the lower",
+    "confidence": 1.0,
+    "bbox": [
+      0.08545884936424922,
+      0.21830864228431135,
+      0.413004653094566,
+      0.026705949348315827
+    ]
+  },
+  {
+    "text": "supports.",
+    "confidence": 1.0,
+    "bbox": [
+      0.08555686607030649,
+      0.19622130453712217,
+      0.08231092479130991,
+      0.01983809220163446
+    ]
+  },
+  {
+    "text": "The magazine cannot be removed without",
+    "confidence": 1.0,
+    "bbox": [
+      0.08712478176434185,
+      0.16540388989667665,
+      0.4114194373561912,
+      0.026932952278538758
+    ]
+  },
+  {
+    "text": "inserting the magazine slide. The slide protects",
+    "confidence": 1.0,
+    "bbox": [
+      0.08390410696917815,
+      0.1456140348596492,
+      0.4126712328767123,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "the film from fogging. Note also that the camera",
+    "confidence": 1.0,
+    "bbox": [
+      0.0839041147688355,
+      0.12631578960526313,
+      0.4143835616438356,
+      0.021052631578947434
+    ]
+  },
+  {
+    "text": "cannot be fired when a magazine, with slide",
+    "confidence": 1.0,
+    "bbox": [
+      0.08732876418786695,
+      0.10526315775689221,
+      0.410958904109589,
+      0.02280701754385972
+    ]
+  },
+  {
+    "text": "inserted, is attached to the camera.",
+    "confidence": 1.0,
+    "bbox": [
+      0.08561644130136982,
+      0.08245614042105265,
+      0.2945205479452055,
+      0.021052631578947434
+    ]
+  },
+  {
+    "text": "8",
+    "confidence": 1.0,
+    "bbox": [
+      0.08561643827054795,
+      0.01228070197368425,
+      0.0136986301369863,
+      0.01754385964912286
+    ]
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "text": "Load status and film type indicators",
+    "confidence": 1.0,
+    "bbox": [
+      0.07705479707681016,
+      0.5140350878320802,
+      0.3578767123287671,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "In the center of the roll holder key is a crescent",
+    "confidence": 1.0,
+    "bbox": [
+      0.07534246789383556,
+      0.49122806989035095,
+      0.4143835616438356,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "shaped indicator that displays white when the",
+    "confidence": 1.0,
+    "bbox": [
+      0.07705479794520542,
+      0.4701754386988304,
+      0.4109589041095891,
+      0.02280701754385972
+    ]
+  },
+  {
+    "text": "film is loaded into the magazine, and progressi-",
+    "confidence": 1.0,
+    "bbox": [
+      0.0770547965111301,
+      0.4473684207894737,
+      0.4092465753424657,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "vely changes to red as the tilm is wound on. A",
+    "confidence": 1.0,
+    "bbox": [
+      0.07862314917011508,
+      0.42877427035148463,
+      0.40785057903969124,
+      0.0205764795604505
+    ]
+  },
+  {
+    "text": "completely red signal indicates that either the",
+    "confidence": 1.0,
+    "bbox": [
+      0.07694075336363584,
+      0.39932866843572723,
+      0.41123910146216824,
+      0.03065746039674988
+    ]
+  },
+  {
+    "text": "final frame is exposed, or that the magazine is",
+    "confidence": 1.0,
+    "bbox": [
+      0.07705479708904109,
+      0.3859649123903509,
+      0.410958904109589,
+      0.024561403508771895
+    ]
+  },
+  {
+    "text": "empty.",
+    "confidence": 1.0,
+    "bbox": [
+      0.07863755110146455,
+      0.3627641638679716,
+      0.06019065151475879,
+      0.02184009384690666
+    ]
+  },
+  {
+    "text": "The film indicator at the rear of the magazine can",
+    "confidence": 1.0,
+    "bbox": [
+      0.07876712621086103,
+      0.33684210536340853,
+      0.4092465753424657,
+      0.021052631578947434
+    ]
+  },
+  {
+    "text": "be set to the sensitivity of the film in use - in ASA",
+    "confidence": 1.0,
+    "bbox": [
+      0.07876712585616438,
+      0.3140350878399123,
+      0.410958904109589,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "or DIN.",
+    "confidence": 1.0,
+    "bbox": [
+      0.07845743766235443,
+      0.29188704577613833,
+      0.06226320789284902,
+      0.021489066408391544
+    ]
+  },
+  {
+    "text": "The indicator hinges out to accept the lid of a film",
+    "confidence": 1.0,
+    "bbox": [
+      0.07858718828221123,
+      0.25972518026407687,
+      0.41129302978515625,
+      0.026861373165197544
+    ]
+  },
+  {
+    "text": "carton informing the user of film type, as well as",
+    "confidence": 1.0,
+    "bbox": [
+      0.07876712622309195,
+      0.24035087730576443,
+      0.410958904109589,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "sensitivity.",
+    "confidence": 1.0,
+    "bbox": [
+      0.0786635196448664,
+      0.2187628855084397,
+      0.09267296203195233,
+      0.020368965885095403
+    ]
+  },
+  {
+    "text": "Loading the magazine",
+    "confidence": 1.0,
+    "bbox": [
+      0.506849317016267,
+      0.9456140353947369,
+      0.22431506849315075,
+      0.024561403508771895
+    ]
+  },
+  {
+    "text": "The magazine may be loaded on, or off the ca-",
+    "confidence": 1.0,
+    "bbox": [
+      0.5066631678727465,
+      0.9205922436904976,
+      0.41137272037871897,
+      0.02751413228219013
+    ]
+  },
+  {
+    "text": "mera. If the magazine is to be loaded off the",
+    "confidence": 1.0,
+    "bbox": [
+      0.5083188224227484,
+      0.8991980156716417,
+      0.40973193024935783,
+      0.027939353072852446
+    ]
+  },
+  {
+    "text": "camera then the magazine slide must be insert-",
+    "confidence": 1.0,
+    "bbox": [
+      0.5064691074522082,
+      0.8772947924516596,
+      0.41334868130618585,
+      0.03270889750698147
+    ]
+  },
+  {
+    "text": "ed, and have its flat side towards the rear of the",
+    "confidence": 1.0,
+    "bbox": [
+      0.5065376015034837,
+      0.8571842363423485,
+      0.41157949787296677,
+      0.03137251368740157
+    ]
+  },
+  {
+    "text": "magazine. This facilitates removal of the roll",
+    "confidence": 1.0,
+    "bbox": [
+      0.5081778299679746,
+      0.83633205954074,
+      0.41169495778541043,
+      0.032170352601168406
+    ]
+  },
+  {
+    "text": "holder for loading.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5068493145547945,
+      0.819298245877193,
+      0.15410958904109584,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "1) Fold out the roll holder key.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5085616417294522,
+      0.7877192980175438,
+      0.24486301369863006,
+      0.02280701754385972
+    ]
+  },
+  {
+    "text": "2) Turn the key counter-clockwise and with-",
+    "confidence": 1.0,
+    "bbox": [
+      0.5083036587335286,
+      0.7538597524292459,
+      0.41316254498207416,
+      0.028922504291199802
+    ]
+  },
+  {
+    "text": "draw the roll holder.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5308219161643836,
+      0.738596491122807,
+      0.16438356164383572,
+      0.01754385964912286
+    ]
+  },
+  {
+    "text": "3) Place an empty spool under the spool clamp",
+    "confidence": 1.0,
+    "bbox": [
+      0.5085616401027399,
+      0.7052631576666667,
+      0.410958904109589,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "bar - closest to the splined knob. Insert a roll",
+    "confidence": 1.0,
+    "bbox": [
+      0.532534251177226,
+      0.6859649125657894,
+      0.38869863013698636,
+      0.02280701754385972
+    ]
+  },
+  {
+    "text": "of film under the other end of the bar, ensuring",
+    "confidence": 1.0,
+    "bbox": [
+      0.5324258622314173,
+      0.6648521896367436,
+      0.3871900218806854,
+      0.02350857717949051
+    ]
+  },
+  {
+    "text": "that it is turned the same way as in the picture.",
+    "confidence": 1.0,
+    "bbox": [
+      0.530821921729452,
+      0.645614035122807,
+      0.3921232876712327,
+      0.021052631578947434
+    ]
+  },
+  {
+    "text": "Be careful to remove all the paper tape that",
+    "confidence": 1.0,
+    "bbox": [
+      0.5341274174021303,
+      0.6226580334299973,
+      0.3889364216425649,
+      0.023185248123972046
+    ]
+  },
+  {
+    "text": "surrounds a new roll of film.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5325342439854454,
+      0.6017543857017544,
+      0.22773972602739723,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "4) Turn the roll holder key clockwise so that the",
+    "confidence": 1.0,
+    "bbox": [
+      0.5100197024325925,
+      0.5680955689554215,
+      0.41316058537731437,
+      0.028126105927584466
+    ]
+  },
+  {
+    "text": "film clamp opens. Pull 3 to 4 in. of paper",
+    "confidence": 1.0,
+    "bbox": [
+      0.532365677592532,
+      0.5462000774583977,
+      0.39078775170731217,
+      0.027115183545831867
+    ]
+  },
+  {
+    "text": "backing off the film roll and slide the edge",
+    "confidence": 1.0,
+    "bbox": [
+      0.5342465781188845,
+      0.5280701755513784,
+      0.38869863013698625,
+      0.02280701754385972
+    ]
+  },
+  {
+    "text": "under the clamp.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5342465771190068,
+      0.5070175438815789,
+      0.14212328767123283,
+      0.019298245614035148
+    ]
+  },
+  {
+    "text": "5) Insert the tongue of the backing paper into the",
+    "confidence": 1.0,
+    "bbox": [
+      0.5117768116789672,
+      0.475206629871498,
+      0.41135900314540086,
+      0.026631527616266637
+    ]
+  },
+  {
+    "text": "slot in the take-up spool.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5342465775898972,
+      0.4543859651754386,
+      0.20376712328767121,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "6) Turn the splined knob clockwise until the ar-",
+    "confidence": 1.0,
+    "bbox": [
+      0.5118200762460919,
+      0.4232124625149344,
+      0.4129902565315978,
+      0.025003495132713938
+    ]
+  },
+  {
+    "text": "row on the paper backing is opposite the tri-",
+    "confidence": 1.0,
+    "bbox": [
+      0.5341143884917036,
+      0.4036574756048177,
+      0.38899954704389184,
+      0.021157283113713787
+    ]
+  },
+  {
+    "text": "angular index on the spool clamp bar.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5373618524451907,
+      0.38190522556488604,
+      0.30697472454750374,
+      0.026992404670046155
+    ]
+  },
+  {
+    "text": "7) Turn the roll holder key counter-clockwise",
+    "confidence": 1.0,
+    "bbox": [
+      0.5134925747398599,
+      0.3494511708130742,
+      0.4113843996230869,
+      0.026384392119290556
+    ]
+  },
+  {
+    "text": "and insert the roll holder into the magazine -",
+    "confidence": 1.0,
+    "bbox": [
+      0.535958908989726,
+      0.33157894747807026,
+      0.3904109589041096,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "jiggling it a little if it does not click into place.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5340114896161752,
+      0.30644508930150494,
+      0.39254664068352685,
+      0.028488306413616993
+    ]
+  },
+  {
+    "text": "Lock the roll holder into the magazine by tur-",
+    "confidence": 1.0,
+    "bbox": [
+      0.5376712354666096,
+      0.28947368449561406,
+      0.38869863013698625,
+      0.02280701754385961
+    ]
+  },
+  {
+    "text": "ning the key clockwise.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5373404132877934,
+      0.26445731674671713,
+      0.2043090585159929,
+      0.02585005341914659
+    ]
+  },
+  {
+    "text": "8) Fold out the film crank and rotate it clockwise",
+    "confidence": 1.0,
+    "bbox": [
+      0.5134672428420668,
+      0.23650672635455283,
+      0.41314130286647854,
+      0.026557658011453156
+    ]
+  },
+  {
+    "text": "about ten turns until it stops. Refold the crank.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5376712376070204,
+      0.2175438596929824,
+      0.3784246575342465,
+      0.021052631578947323
+    ]
+  },
+  {
+    "text": "Number 1 will now be displayed in the frame",
+    "confidence": 1.0,
+    "bbox": [
+      0.515303030826636,
+      0.1856814144445207,
+      0.4128847775393969,
+      0.023696492847643413
+    ]
+  },
+  {
+    "text": "counter window and the magazine is loaded -",
+    "confidence": 1.0,
+    "bbox": [
+      0.5154109640839041,
+      0.1649122808552631,
+      0.4143835616438356,
+      0.02280701754385972
+    ]
+  },
+  {
+    "text": "ready for use.",
+    "confidence": 1.0,
+    "bbox": [
+      0.5153143698333867,
+      0.13976606758307708,
+      0.11834386276872189,
+      0.022222252059401093
+    ]
+  },
+  {
+    "text": "10",
+    "confidence": 1.0,
+    "bbox": [
+      0.07876712323630136,
+      0.012280701543859629,
+      0.02568493150684932,
+      0.021052631578947434
+    ]
+  }
+]

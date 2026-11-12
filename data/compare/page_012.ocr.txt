@@ -1,0 +1,26 @@
+The magazine and camera indicator
+windows
+The indicator signals on the right side of the
+camera and magazine show if the particular unit
+is ready to fire (white) or if it has been fired (red).
+The golden rule is, that when attaching a maga-
+zine to a camera, the signal colours should
+match - white to white, or red to red. There are
+only two incorrect combinations. This is how to
+rematch the signals.
+Red magazine - white camera
+Remove the magazine from the camera.
+Fire the camera - its signal will change to red.
+Attach the magazine.
+Rewind the camera with one full turn of the wind-
+ing crank.
+Both signals will now display white.
+White magazine - Red camera
+Remove the magazine from the camera.
+Wind on the camera with one full turn of the
+winding crank. The camera status signal will
+change to white.
+Replace the magazine. Both signals will now
+display white.
+MADE IN SWEDEN SY
+YICTOR HASSELBLAD ALS

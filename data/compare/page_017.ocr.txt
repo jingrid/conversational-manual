@@ -1,0 +1,31 @@
+MADE IN SWEDEN BY
+VICTOR HASSELBLAD
+14
+SSELBLAD
+0,9 g.
+Time exposure lock
+The time exposure lock has two settings: 0 =
+disengaged) and T (= depressed shutter release
+locks in the depressed position until the lock is
+returned to the O setting).
+The T setting can thus be used for time exposure
+when the shutter is set at B.
+Film cannot be advanced until the lock is reset to
+O.
+The setting cannot be used in operation with a
+cable release.
+Pre-release
+To reduce the low level of camera-induced shake
+to a minimum, the camera can be pre-released
+by pressing the pre-release button. This is what
+happens when the pre-release button is pressed:
+the mirror flops up, then lens stops down to the
+preset working aperture, the auxiliary shutter
+opens, and the shutter closes (but remains cock-
+ed).
+When the shutter release is pressed, only the
+operation of the shutter remains. Since the image
+on the focusing screen disappears
+in a pre-
+released camera, a sports viewfinder is a good
+way to keep track of moving subjects.

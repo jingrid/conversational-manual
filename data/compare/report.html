@@ -1,0 +1,1755 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OCR vs Claude report</title>
+<style>
+  body { font: 14px system-ui, sans-serif; margin: 16px; color: #1a1a1a; background: #fff; }
+  .wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; min-width: 960px; table-layout: fixed; }
+  th, td { border: 1px solid #ccc; padding: 10px; vertical-align: top; text-align: left; }
+  thead th { position: sticky; top: 0; background: #f2f2f2; }
+  img { width: 100%; display: block; }
+  pre { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 13px; }
+  .meta { margin: 0 0 8px; font-weight: 600; }
+  .score { color: #666; }
+</style>
+<h1>OCR vs Claude report</h1>
+<p>27 pages. PDF page numbers. Scores appear beside OCR lines below 0.9.</p>
+<div class="wrap">
+<table>
+  <thead><tr><th>Page image</th><th>Apple OCR text</th><th>Claude vision text</th></tr></thead>
+  <tbody>
+    <tr id="page-2">
+      <td><p class="meta">PDF page 2</p><a href="../pages/page_002.png"><img src="../pages/page_002.png" alt="Scan of PDF page 2"></a></td>
+      <td><p class="meta">Confidence: mean 0.917, min 0.500, 6 lines</p><pre>HASSELBLAD
+SWC/M <span class="score">(0.50)</span>
+Biogon
+4.5/38
+500C/M
+Instruction Manual</pre></td>
+      <td><pre># HASSELBLAD
+
+[Diagram: Line drawing of a Hasselblad 500C/M camera body with a folding waist-level viewfinder hood on top, the winding crank on the left side, and a lens mounted on the front. The top of the body is marked &quot;HASSELBLAD&quot;. The lens barrel is marked &quot;Carl Zeiss&quot;, &quot;Planar 2,8/80&quot;, &quot;T*&quot;, and a serial number &quot;6659711&quot;.]
+
+# SWC/M
+
+[Diagram: Line drawing of a Hasselblad SWC/M camera with an optical viewfinder mounted on top, a winding crank at the lower left, and a large wide-angle lens on the front. The top of the body is marked &quot;HASSELBLAD&quot;. The lens barrel is marked &quot;Biogon 4,5/38&quot;, &quot;Carl Zeiss&quot;, &quot;T*&quot;, and a serial number &quot;666970&quot;. There is a handwritten ink mark on the lens front.]
+
+# 500C/M
+
+[Two horizontal blue stripes across the lower part of the page.]
+
+**Instruction Manual**</pre></td>
+    </tr>
+    <tr id="page-3">
+      <td><p class="meta">PDF page 3</p><a href="../pages/page_003.png"><img src="../pages/page_003.png" alt="Scan of PDF page 3"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 27 lines</p><pre>Guarantee
+If within one year from date of original pur-
+chase, this Hasselblad photographic product
+fails to function because of defects in materials
+or workmanship, Victor Hasseiblad Aktiebolag
+will, at its option, either repair or replace the
+product, provided the purchaser returns the
+product to a Hasselblad authorized service sta-
+tion and submits proof of date of original pur-
+chase.
+Service and maintenance
+Cameras and lenses put to heavy-duty profes-
+sional use should be serviced by an authorized
+Hasselblad service center at regular intervals.
+The lubrication in cameras and lenses that are
+unused for long periods, (6 months or more)
+can dry out. This may lead to increased wear,
+and a poorer operation. To avoid drying, ope-
+rate stored equipment from time to time, ex-
+posing a couple of times at each shutter speed.
+In this way the lubrication will be distributed in
+the mechanism and the equipment will be kept
+in good condition.
+Copyright © 1985, Victor Hasselblad AB..
+All rights reserved. No part of this material may be reproduced, stored in a retrieval system, or
+transmitted, in any form or by any means, electronic, mechanical, photocopy, recording, or other-
+wise, without the prior written permission of the Company.</pre></td>
+      <td><pre>## Guarantee
+
+If within one year from date of original purchase, this Hasselblad photographic product fails to function because of defects in materials or workmanship, Victor Hasselblad Aktiebolag will, at its option, either repair or replace the product, provided the purchaser returns the product to a Hasselblad authorized service station and submits proof of date of original purchase.
+
+## Service and maintenance
+
+Cameras and lenses put to heavy-duty professional use should be serviced by an authorized Hasselblad service center at regular intervals. The lubrication in cameras and lenses that are unused for long periods, (6 months or more) can dry out. This may lead to increased wear, and a poorer operation. To avoid drying, operate stored equipment from time to time, exposing a couple of times at each shutter speed. In this way the lubrication will be distributed in the mechanism and the equipment will be kept in good condition.
+
+Copyright © 1985, Victor Hasselblad AB.
+
+*All rights reserved. No part of this material may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means, electronic, mechanical, photocopy, recording, or otherwise, without the prior written permission of the Company.*</pre></td>
+    </tr>
+    <tr id="page-4">
+      <td><p class="meta">PDF page 4</p><a href="../pages/page_004.png"><img src="../pages/page_004.png" alt="Scan of PDF page 4"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 21 lines</p><pre>Hasselblad 500C/M
+The Hasselblad 500C/M is a medium for-
+mat single-lens reflex camera featuring
+lens, magazine, viewfinder, and focusing
+screen interchangeability.
+The extensive Hasselblad system of ac-
+cessories provides unlimited photographic
+scope. It is a system capable of taking your
+photography to inner, or outer space, and
+almost anywhere in between.
+The rugged dependability of the Hassel-
+blad 500C/ M is already a legend, but it is a
+precision instrument, and as such it requ-
+ires skill and know-how in its operation in
+order to yield the best photographic result.
+Please take a little time to read the con-
+tents of this instruction manual. Follow the
+picture sequence for the best initial opera-
+tion of your 500C/ M. Full operating potenti-
+al is described - enabling you to make the
+very most of your new camera.</pre></td>
+      <td><pre>[Photo: Hasselblad 500C/M camera shown from the front-left, with a folding waist-level viewfinder hood on top, a winding crank on the left side, and a Carl Zeiss Planar lens mounted on the front. No callout labels.]
+
+# Hasselblad 500C/M
+
+The Hasselblad 500C/M is a medium format single-lens reflex camera featuring lens, magazine, viewfinder, and focusing screen interchangeability.
+
+The extensive Hasselblad system of accessories provides unlimited photographic scope. It is a system capable of taking your photography to inner, or outer space, and almost anywhere in between.
+
+The rugged dependability of the Hasselblad 500C/M is already a legend, but it is a precision instrument, and as such it requires skill and know-how in its operation in order to yield the best photographic result.
+
+Please take a little time to read the contents of this instruction manual. Follow the picture sequence for the best initial operation of your 500C/M. Full operating potential is described – enabling you to make the very most of your new camera.
+
+1</pre></td>
+    </tr>
+    <tr id="page-5">
+      <td><p class="meta">PDF page 5</p><a href="../pages/page_005.png"><img src="../pages/page_005.png" alt="Scan of PDF page 5"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 60 lines</p><pre>30-
+29
+28.
+27
+26
+25
+HASSELBLAD
+24 23
+22 21
+20
+19
+18 17 16
+15
+14
+1. Focusing hood
+2. Focusing screen
+3. Screen retaining clip
+4. Lens focusing ring with
+distance scale
+5. Button for cross-coupling of
+shutter speed and aperture
+rings
+6. Central index
+7. Depth-of-field scale
+8. Aperture ring with aperture
+scale
+9. Shutter speed selector ring
+2
+10. PC flash terminal
+11. External and internal lens
+accessory mounts
+12. Exposure value scale
+13. Exposure value index
+14. Lens lock release button
+15. Main drive axle
+16. Threaded cable release
+socket
+17. Main camera release but-
+ton
+18. Time exposure catch
+19. Winding crank bayonet
+2
+3
+5
+8
+10
+,11
+13
+12
+20. Pre-release button
+21. Shutter status indicator
+22. Strap lug
+23. Winding crank
+24. Winding crank index
+25. Frame counter
+26. Magazine status indicator
+27. Film plane indicator
+28. Film winding crank
+29. Magazine designation
+30. Magazine catch</pre></td>
+      <td><pre>[Diagram: Exploded view of a Hasselblad camera. The camera body is in the center, with the focusing hood and focusing screen lifted off above it. The lens is detached to the right, the winding crank is detached to the lower left, and the film magazine is attached at the rear. Callouts:
+- 1 – focusing hood (top)
+- 2 – focusing screen beneath the hood
+- 3 – screen retaining clip at the top edge of the body
+- 4 – lens focusing ring with distance scale
+- 5 – button on the lens barrel for cross-coupling of shutter speed and aperture rings
+- 6 – central index on the lens
+- 7 – depth-of-field scale on the lens
+- 8 – aperture ring with aperture scale
+- 9 – shutter speed selector ring
+- 10 – PC flash terminal on the side of the lens
+- 11 – external and internal lens accessory mounts at the front of the lens
+- 12 – exposure value scale on the lens barrel
+- 13 – exposure value index on the lens barrel
+- 14 – lens lock release button on the front of the body, right of the lens mount
+- 15 – main drive axle at the bottom of the lens mount
+- 16 – threaded cable release socket at the lower front of the body
+- 17 – main camera release button at the lower front of the body
+- 18 – time exposure catch at the lower front of the body
+- 19 – winding crank bayonet on the side of the body
+- 20 – pre-release button on the side of the body
+- 21 – shutter status indicator on the side of the body
+- 22 – strap lug on the side of the body
+- 23 – winding crank (detached)
+- 24 – winding crank index on the detached crank
+- 25 – frame counter on the side of the magazine
+- 26 – magazine status indicator on the side of the magazine
+- 27 – film plane indicator on the side of the magazine
+- 28 – film winding crank on the side of the magazine
+- 29 – magazine designation (marked &quot;12&quot;) on the side of the magazine
+- 30 – magazine catch on top of the magazine]
+
+1. Focusing hood
+2. Focusing screen
+3. Screen retaining clip
+4. Lens focusing ring with distance scale
+5. Button for cross-coupling of shutter speed and aperture rings
+6. Central index
+7. Depth-of-field scale
+8. Aperture ring with aperture scale
+9. Shutter speed selector ring
+10. PC flash terminal
+11. External and internal lens accessory mounts
+12. Exposure value scale
+13. Exposure value index
+14. Lens lock release button
+15. Main drive axle
+16. Threaded cable release socket
+17. Main camera release button
+18. Time exposure catch
+19. Winding crank bayonet
+20. Pre-release button
+21. Shutter status indicator
+22. Strap lug
+23. Winding crank
+24. Winding crank index
+25. Frame counter
+26. Magazine status indicator
+27. Film plane indicator
+28. Film winding crank
+29. Magazine designation
+30. Magazine catch
+
+2</pre></td>
+    </tr>
+    <tr id="page-6">
+      <td><p class="meta">PDF page 6</p><a href="../pages/page_006.png"><img src="../pages/page_006.png" alt="Scan of PDF page 6"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 26 lines</p><pre>31 32 33
+34
+35
+43
+42.
+41.
+38 37
+36
+40
+39
+31. Focusing hood magnifier
+32. Magazine slide
+33. Roll holder key
+34. Film consumption indicator
+35. Film speed and type indi-
+cator
+36. Magazine support hooks
+37. 3/8&quot; tripod socket
+38. Quick coupling plate
+39. Lens drive axle
+40. Depth-of-field preview but-
+ton
+41. Lens locating index
+42. Accessory rail
+43. Strap lug
+3</pre></td>
+      <td><pre>[Diagram: Exploded-style line drawing of a medium-format camera viewed from the lower front-left, showing the camera body with focusing hood on top, a film magazine detached to the right, and a lens detached to the lower left. Red callout numbers point to parts: 31 points to the magnifier inside the focusing hood; 32 points to the magazine slide inserted at the front edge of the magazine; 33 points to the roll holder key on the magazine side; 34 points to the film consumption indicator at the center of the key; 35 points to the film speed and type indicator dial on the magazine side; 36 points to the two magazine support hooks at the bottom rear of the body; 37 points to the tripod socket on the bottom plate; 38 points to the quick coupling plate on the bottom of the body; 39 points to the lens drive axle at the rear of the lens mount; 40 points to the depth-of-field preview button on the lens barrel; 41 points to the lens locating index (triangle) on the lens rear; 42 points to the accessory rail on the side of the body; 43 points to the strap lug on the side of the body.]
+
+31. Focusing hood magnifier
+32. Magazine slide
+33. Roll holder key
+34. Film consumption indicator
+35. Film speed and type indicator
+36. Magazine support hooks
+37. 3/8&quot; tripod socket
+38. Quick coupling plate
+39. Lens drive axle
+40. Depth-of-field preview button
+41. Lens locating index
+42. Accessory rail
+43. Strap lug
+
+3</pre></td>
+    </tr>
+    <tr id="page-7">
+      <td><p class="meta">PDF page 7</p><a href="../pages/page_007.png"><img src="../pages/page_007.png" alt="Scan of PDF page 7"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 22 lines</p><pre>Front protective cover
+Turn the cover (bayonet fitting) in the direction of
+the arrow and remove.
+NOTE: The front protective cover may only be removed
+when the camera is cocked (fully wound).
+Rear protective cover
+Depress the catch and swing back the cover. Lift
+the cover off the magazine support hooks.
+Opening the focusing hood
+Lift the lid firmly at the rear edge, and swing it up
+to the vertical position.
+The built-in magnifier
+The magnifier flips up into the viewing position
+when the oval button is moved in the direction of
+the arrow.
+To re-fold the magnifier simply press it down
+with a fingertip until it locks back into the lid.
+The magnifier may be changed for a correction
+lens. See page 13.
+Closing the focusing hood
+&quot;Pinch&quot; in the side plates at the hinge points,
+and fold down the lid.</pre></td>
+      <td><pre>[Photo: Front three-quarter view of a Hasselblad camera body with the focusing hood closed and the winding crank on the left side. A round protective cover is fitted over the lens mount, with a red curved arrow on the cover indicating counterclockwise rotation for removal.]
+
+## Front protective cover
+
+Turn the cover (bayonet fitting) in the direction of the arrow and remove.
+
+**NOTE:** The front protective cover may only be removed when the camera is cocked (fully wound).
+
+[Photo: Side view of the camera with the focusing hood lid swung up toward the vertical position; a red curved arrow shows the upward swinging motion of the lid.]
+
+[Photo: Rear view of the camera body with the rear protective cover fitted over the back; a red arrow on top points down onto the catch, indicating it should be depressed.]
+
+## Rear protective cover
+
+Depress the catch and swing back the cover. Lift the cover off the magazine support hooks.
+
+## Opening the focusing hood
+
+Lift the lid firmly at the rear edge, and swing it up to the vertical position.
+
+## The built-in magnifier
+
+The magnifier flips up into the viewing position when the oval button is moved in the direction of the arrow.
+
+To re-fold the magnifier simply press it down with a fingertip until it locks back into the lid.
+
+The magnifier may be changed for a correction lens. See page 13.
+
+## Closing the focusing hood
+
+&quot;Pinch&quot; in the side plates at the hinge points, and fold down the lid.
+
+4</pre></td>
+    </tr>
+    <tr id="page-8">
+      <td><p class="meta">PDF page 8</p><a href="../pages/page_008.png"><img src="../pages/page_008.png" alt="Scan of PDF page 8"></a></td>
+      <td><p class="meta">Confidence: mean 0.968, min 0.500, 31 lines</p><pre>Lenses
+Since the early 1950&#x27;s Hasselblad lenses have
+been manufactured by Carl Zeiss in West Ger-
+many. The Hasselblad 500C/M uses CF and C
+lenses made by Carl Zeiss.
+With the exception of &quot;F&quot; type lenses all Hassel-
+blad lenses manufactured since 1957 can be
+used with the 500C/M. F-lenses can only be
+used with the Hasselblad 2000 series came-
+ras.
+Attaching a Hasselblad lens
+Make sure the camera is fully cocked. The pictu-
+re shows the correct relation between the came-
+ra&#x27;s drive axle and the red index.
+Ensure that the lens is cocked. The slot on the
+drive axle must be aligned with the adjacent red
+dot, as shown in the picture. If this is not the
+case, insert a coin in the drive axle slot and turn
+it in the direction of the arrow until it locks.
+Align the red index on the lens bayonet with the
+corresponding index on the body bayonet.
+Insert the lens and rotate it clockwise. A faint
+click can be heard as the lens lock drops into
+place. The lens will now turn no further and is
+fully locked on.
+05
+SZ <span class="score">(0.50)</span>
+OL
+L
+8 IL <span class="score">(0.50)</span>
+91</pre></td>
+      <td><pre>[Photo: Hands holding a Hasselblad 500C/M camera body with the lens removed, showing the empty body bayonet mount, next to a detached lens held so its rear bayonet faces the camera.]
+
+## Lenses
+
+Since the early 1950&#x27;s Hasselblad lenses have been manufactured by Carl Zeiss in West Germany. The Hasselblad 500C/M uses CF and C lenses made by Carl Zeiss.
+
+With the exception of &quot;F&quot; type lenses all Hasselblad lenses manufactured since 1957 can be used with the 500C/M. **F-lenses can only be used with the Hasselblad 2000 series cameras.**
+
+## Attaching a Hasselblad lens
+
+Make sure the camera is fully cocked. The picture shows the correct relation between the camera&#x27;s drive axle and the red index.
+
+Ensure that the lens is cocked. The slot on the drive axle must be aligned with the adjacent red dot, as shown in the picture. If this is not the case, insert a coin in the drive axle slot and turn it **in the direction of the arrow** until it locks.
+
+Align the red index on the lens bayonet with the corresponding index on the body bayonet.
+
+Insert the lens and rotate it clockwise. A faint click can be heard as the lens lock drops into place. The lens will now turn no further and is fully locked on.
+
+[Photo: Close-up of the camera body&#x27;s bayonet mount, showing the camera&#x27;s drive axle. A red dashed line runs through the drive axle slot to a red dot, indicating the correct alignment of the slot with the red index.]
+
+[Photo: Close-up of the rear of the lens, showing the lens drive axle. A red curved arrow above the axle shows the direction to turn it, and a red dashed line runs through the axle slot to the adjacent red dot.]
+
+[Photo: Front of the camera body with the &quot;HASSELBLAD&quot; nameplate and a lens positioned below it. A red dot index on the body bayonet and a red index on the lens bayonet are connected by a red dashed line, with red arrows pointing toward each other to show alignment. The lens barrel shows distance and aperture scale numbers, printed upside down from this view: 50, 25, 15, 10, 7, 5, 4, 8, 11, 16, 22.]
+
+5</pre></td>
+    </tr>
+    <tr id="page-9">
+      <td><p class="meta">PDF page 9</p><a href="../pages/page_009.png"><img src="../pages/page_009.png" alt="Scan of PDF page 9"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 41 lines</p><pre>1 15 30 60 125 250 500
+22 16 11 8 5,6 4 2,8
+10
+25
+20 c0
+50
+Diaphragm
+CF lenses have an automatic diaphragm that
+stops down to the working aperture immediately
+prior to exposure.
+Shutter speeds
+The shutter speed selector ring is the ring locat-
+ed closest to the front of the lens. The desired
+shutter speed is set against the main lens index.
+The white scale shows the shutter speeds, and
+the orange scale the exposure values.
+The green F setting is only used when the lens is
+attached to a Hasselblad camera in the 2000
+series. The F setting disconnects the leaf shutter
+in the lens which then allows a 2000 series
+camera to function in the focal plane shutter (F)
+mode. Diaphragm operation is not effected. The
+F setting can only be made after depressing the
+green detent button.
+Exposure values
+The aperture and shutter speed combination set
+opposite the central lens index determines expo-
+sure. Every combination of shutter speed/ aper-
+ture has an equivalent exposure value (EV).
+Cross-coupled shutter speed/aperture
+When the cross-coupling button is depressed,
+the lens aperture ring and shutter speed ring are
+locked together and rotate simultaneously. In this
+manner, speed/aperture combinations may be
+altered without changing the exposure value (EV).
+Should you for example wish to change from f/8
+to f/11, the shutter speed ring will automatically
+be moved to a correspondingly slower shutter
+speed. The reverse is also true. A change in
+shutter speed will bring about a corresponding
+compensation of the aperture setting.</pre></td>
+      <td><pre>[Photo: Close-up of a Carl Zeiss CF lens. Visible are the shutter speed ring with scale &quot;1 2 4 8 15 30 60 125 250 500&quot;, the aperture scale &quot;22 16 11 8 5,6 4 2,8&quot; beside a ribbed cross-coupling button, the depth-of-field scale &quot;22 16 11 8 4 | 4 8 11 16 22&quot; around the central index line with an &quot;F&quot; mark, and the distance scale &quot;5 7 10 20 ∞ 15 25 50&quot;.]
+
+## Diaphragm
+
+CF lenses have an automatic diaphragm that stops down to the working aperture immediately prior to exposure.
+
+## Shutter speeds
+
+The shutter speed selector ring is the ring located closest to the front of the lens. The desired shutter speed is set against the main lens index.
+
+The white scale shows the shutter speeds, and the orange scale the exposure values.
+
+The green F setting is only used when the lens is attached to a Hasselblad camera in the 2000 series. The F setting disconnects the leaf shutter in the lens which then allows a 2000 series camera to function in the focal plane shutter (F) mode. Diaphragm operation is not effected. The F setting can only be made after depressing the green detent button.
+
+[Photo: A Hasselblad camera body with an 80mm CF lens attached, viewed from the front at an angle, showing the lens rings and scales; &quot;HASSELBLAD&quot; appears on the camera body and lens barrel.]
+
+## Exposure values
+
+The aperture and shutter speed combination set opposite the central lens index determines exposure. Every combination of shutter speed/aperture has an equivalent exposure value (EV).
+
+## Cross-coupled shutter speed/aperture
+
+When the cross-coupling button is depressed, the lens aperture ring and shutter speed ring are locked together and rotate simultaneously. In this manner, speed/aperture combinations may be altered without changing the exposure value (EV).
+
+Should you for example wish to change from f/8 to f/11, the shutter speed ring will automatically be moved to a correspondingly slower shutter speed. The reverse is also true. A change in shutter speed will bring about a corresponding compensation of the aperture setting.
+
+6</pre></td>
+    </tr>
+    <tr id="page-10">
+      <td><p class="meta">PDF page 10</p><a href="../pages/page_010.png"><img src="../pages/page_010.png" alt="Scan of PDF page 10"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 54 lines</p><pre>Focusing and depth of field
+The lens is focused with the focusing ring (the
+rubberized ring closest to the camera body).
+Rotate the ring until the viewfinder image is
+sharp.
+The distance between the subject and the film
+plane is read off the focusing ring&#x27;s distance
+scale opposite the central index. The distance in
+meters is shown in white numerals, and the dis-
+tance in feet is in orange numerals.
+Objects closer or further away than the selected
+distance can be sharp, within certain limits. The
+borders for this field of sharp focus, i.e. depth of
+field, vary with the f/ stop.
+A smallf/ stop yields wide depth of field.
+A large f/ stop yields narrow depth of field.
+The depth of field available at any given f/ stop
+can be read off the depth-of-field scale located
+on both sides of the central index.
+Viewing depth of field
+Depth of field may be viewed by stopping down
+the diaphragm to the required aperture, and
+viewing the resulting image on the ground glass.
+To stop down the diaphragm, simply slide the
+manual preview button downwards until it locks
+into the preview position.
+To release the button, and reopen the dia-
+phragm, press in the lower section of the button.
+Infrared photography
+Infrared (IR) rays (wavelengths longer than 800
+nanometers) are refracted to a focal plane some-
+what behind the focal plane of the visible light
+images formed on the focusing screen. To com-
+pensate for this discrepancy, proceed as follows:
+Focus as usual on the focusing screen. Then
+rotate the focusing ring until the distance set is
+opposite the red IR index.
+5 30 60 125250 500
+22 16 11 8 5,6
+11
+15
+25.
+11
+20
+50
+500c/M|E
+Lens removal
+Depress the lens release button and rotate the
+lens counter-clockwise about one fifth of a turn
+to remove it.
+Note. Lens removal is only possible if the came-
+ra is cocked (fully wound), and not in the pre-re-
+leased mode.
+7</pre></td>
+      <td><pre>## Focusing and depth of field
+
+The lens is focused with the focusing ring (the rubberized ring closest to the camera body). Rotate the ring until the viewfinder image is sharp.
+
+The distance between the subject and the film plane is read off the focusing ring&#x27;s distance scale opposite the central index. The distance in meters is shown in white numerals, and the distance in feet is in orange numerals.
+
+Objects closer or further away than the selected distance can be sharp, within certain limits. The borders for this field of sharp focus, i.e. depth of field, vary with the f/stop.
+
+A small f/stop yields wide depth of field.
+A large f/stop yields narrow depth of field.
+
+The depth of field available at any given f/stop can be read off the depth-of-field scale located on both sides of the central index.
+
+## Viewing depth of field
+
+Depth of field may be viewed by stopping down the diaphragm to the required aperture, and viewing the resulting image on the ground glass.
+
+To stop down the diaphragm, simply slide the manual preview button downwards until it locks into the preview position.
+
+To release the button, and reopen the diaphragm, press in the lower section of the button.
+
+### Infrared photography
+
+Infrared (IR) rays (wavelengths longer than 800 nanometers) are refracted to a focal plane somewhat behind the focal plane of the visible light images formed on the focusing screen. To compensate for this discrepancy, proceed as follows:
+
+Focus as usual on the focusing screen. Then rotate the focusing ring until the distance set is opposite the red IR index.
+
+[Photo: Close-up of an 80mm lens mounted on the camera, showing the shutter speed scale (… 15 30 60 125 250 500 …), the aperture scale (22 16 11 8 5,6 4 …), the depth-of-field scale on both sides of the central index (11 8 4 | 4 8 11), and the distance scale below in meters (… 4 5 7 10 20 ∞) and feet (… 15 25 50). A red bracket with red lines marks the depth-of-field range at the top of the scales, and the red IR index next to the distance scale is circled in red and labeled &quot;IR&quot;. The rubberized focusing ring is nearest the camera body.]
+
+[Photo: Side view of the lens on a 500C/M camera body. A red arrow pointing downward indicates sliding the manual preview button down into the preview position; a second red arrow points at the lower section of the button, indicating where to press to release it.]
+
+## Lens removal
+
+Depress the lens release button and rotate the lens counter-clockwise about one fifth of a turn to remove it.
+
+**Note.** Lens removal is only possible if the camera is cocked (fully wound), and not in the pre-released mode.
+
+7</pre></td>
+    </tr>
+    <tr id="page-11">
+      <td><p class="meta">PDF page 11</p><a href="../pages/page_011.png"><img src="../pages/page_011.png" alt="Scan of PDF page 11"></a></td>
+      <td><p class="meta">Confidence: mean 0.984, min 0.500, 32 lines</p><pre>Film magazines
+Attaching the magazine
+Ensure that the magazine slide is fully inserted,
+and that the indicator is white. If the status indi-
+cator does not show a white signal then refer to
+the instruction on page 9.
+Locate the magazine on the lower support hooks
+- see that it is fully seated on the supports.
+Slide the magazine catch to the right and hold it
+there whilst swinging the magazine forward into
+contact with the camera&#x27;s rear plate. Release the
+magazine catch, ensuring that it returns to the
+locked position on the left side.
+Remove the magazine slide and the camera is
+ready to shoot.
+Removing the magazine
+Ensure that the camera is cocked (fully wound
+on). <span class="score">(0.50)</span>
+The magazine and camera indicator windows
+should both display white. (If the magazine indi-
+cator window shows a red signal then follow the
+instructions on the next page.)
+Insert the magazine slide into the magazine.
+Slide the magazine catch to the right.
+Swing back the magazine, and lift it off the lower
+supports.
+The magazine cannot be removed without
+inserting the magazine slide. The slide protects
+the film from fogging. Note also that the camera
+cannot be fired when a magazine, with slide
+inserted, is attached to the camera.
+8</pre></td>
+      <td><pre>## Film magazines
+
+### Attaching the magazine
+
+Ensure that the magazine slide is fully inserted, and that the indicator is white. If the status indicator does not show a white signal then refer to the instruction on page 9.
+
+Locate the magazine on the lower support hooks – see that it is fully seated on the supports.
+
+Slide the magazine catch to the right and hold it there whilst swinging the magazine forward into contact with the camera&#x27;s rear plate. Release the magazine catch, ensuring that it returns to the locked position on the left side.
+
+Remove the magazine slide and the camera is ready to shoot.
+
+[Photo: Close-up of the camera&#x27;s rear with the film magazine attached. Two red straight arrows point to the magazine catch on the left side of the magazine. A red curved arrow at the upper right shows the magazine swinging forward into contact with the camera&#x27;s rear plate.]
+
+### Removing the magazine
+
+Ensure that the camera is cocked (fully wound on).
+
+The magazine and camera indicator windows should both display white. (If the magazine indicator window shows a red signal then follow the instructions on the next page.)
+
+Insert the magazine slide into the magazine.
+
+Slide the magazine catch to the right.
+
+Swing back the magazine, and lift it off the lower supports.
+
+The magazine cannot be removed without inserting the magazine slide. The slide protects the film from fogging. Note also that the camera cannot be fired when a magazine, with slide inserted, is attached to the camera.
+
+[Photo: The film magazine, marked &quot;12&quot;, detached and set to the left of the camera body, with its mating face toward the camera&#x27;s open rear. A red line at the top joins the indicator windows on the magazine and the camera. A red arrow along the bottom shows the path between the magazine and the camera&#x27;s lower supports.]
+
+8</pre></td>
+    </tr>
+    <tr id="page-12">
+      <td><p class="meta">PDF page 12</p><a href="../pages/page_012.png"><img src="../pages/page_012.png" alt="Scan of PDF page 12"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 26 lines</p><pre>The magazine and camera indicator
+windows
+The indicator signals on the right side of the
+camera and magazine show if the particular unit
+is ready to fire (white) or if it has been fired (red).
+The golden rule is, that when attaching a maga-
+zine to a camera, the signal colours should
+match - white to white, or red to red. There are
+only two incorrect combinations. This is how to
+rematch the signals.
+Red magazine - white camera
+Remove the magazine from the camera.
+Fire the camera - its signal will change to red.
+Attach the magazine.
+Rewind the camera with one full turn of the wind-
+ing crank.
+Both signals will now display white.
+White magazine - Red camera
+Remove the magazine from the camera.
+Wind on the camera with one full turn of the
+winding crank. The camera status signal will
+change to white.
+Replace the magazine. Both signals will now
+display white.
+MADE IN SWEDEN SY
+YICTOR HASSELBLAD ALS</pre></td>
+      <td><pre>## The magazine and camera indicator windows
+
+The indicator signals on the right side of the camera and magazine show if the particular unit is ready to fire (white) or if it has been fired (red). The golden rule is, that when attaching a magazine to a camera, the signal colours should match – white to white, or red to red. There are only two incorrect combinations. This is how to rematch the signals.
+
+[Photo: Close-up of the right side of the camera with the magazine attached. The magazine (left) shows a circled number 12, a winding key, a circled number 1, the text &quot;MADE IN SWEDEN BY VICTOR HASSELBLAD AB&quot;, and a film plane mark. The camera body (right) shows a button and the winding crank. Two red arrows point to the indicator windows: one on the magazine, one on the camera body, located side by side near the bottom edge.]
+
+**Red magazine – white camera**
+Remove the magazine from the camera.
+
+Fire the camera – its signal will change to red.
+
+Attach the magazine.
+
+Rewind the camera with one full turn of the winding crank.
+
+Both signals will now display white.
+
+**White magazine – Red camera**
+Remove the magazine from the camera.
+Wind on the camera with one full turn of the winding crank. The camera status signal will change to white.
+Replace the magazine. Both signals will now display white.
+
+[Diagram: Two pairs of indicator windows, with the magazine signal on the left and the camera signal on the right. Top pair: magazine signal red, camera signal white (red magazine – white camera). Bottom pair: magazine signal white, camera signal red (white magazine – red camera).]
+
+9</pre></td>
+    </tr>
+    <tr id="page-13">
+      <td><p class="meta">PDF page 13</p><a href="../pages/page_013.png"><img src="../pages/page_013.png" alt="Scan of PDF page 13"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 50 lines</p><pre>Load status and film type indicators
+In the center of the roll holder key is a crescent
+shaped indicator that displays white when the
+film is loaded into the magazine, and progressi-
+vely changes to red as the tilm is wound on. A
+completely red signal indicates that either the
+final frame is exposed, or that the magazine is
+empty.
+The film indicator at the rear of the magazine can
+be set to the sensitivity of the film in use - in ASA
+or DIN.
+The indicator hinges out to accept the lid of a film
+carton informing the user of film type, as well as
+sensitivity.
+Loading the magazine
+The magazine may be loaded on, or off the ca-
+mera. If the magazine is to be loaded off the
+camera then the magazine slide must be insert-
+ed, and have its flat side towards the rear of the
+magazine. This facilitates removal of the roll
+holder for loading.
+1) Fold out the roll holder key.
+2) Turn the key counter-clockwise and with-
+draw the roll holder.
+3) Place an empty spool under the spool clamp
+bar - closest to the splined knob. Insert a roll
+of film under the other end of the bar, ensuring
+that it is turned the same way as in the picture.
+Be careful to remove all the paper tape that
+surrounds a new roll of film.
+4) Turn the roll holder key clockwise so that the
+film clamp opens. Pull 3 to 4 in. of paper
+backing off the film roll and slide the edge
+under the clamp.
+5) Insert the tongue of the backing paper into the
+slot in the take-up spool.
+6) Turn the splined knob clockwise until the ar-
+row on the paper backing is opposite the tri-
+angular index on the spool clamp bar.
+7) Turn the roll holder key counter-clockwise
+and insert the roll holder into the magazine -
+jiggling it a little if it does not click into place.
+Lock the roll holder into the magazine by tur-
+ning the key clockwise.
+8) Fold out the film crank and rotate it clockwise
+about ten turns until it stops. Refold the crank.
+Number 1 will now be displayed in the frame
+counter window and the magazine is loaded -
+ready for use.
+10</pre></td>
+      <td><pre>[Photo: Rear three-quarter view of a camera film magazine. A red arrow points to the crescent-shaped load status indicator in the center of the roll holder key on the side of the magazine. A second red arrow points to the film indicator dial mounted on the rear of the magazine.]
+
+## Load status and film type indicators
+
+In the center of the roll holder key is a crescent shaped indicator that displays white when the film is loaded into the magazine, and progressively changes to red as the film is wound on. A completely red signal indicates that either the final frame is exposed, or that the magazine is empty.
+
+The film indicator at the rear of the magazine can be set to the sensitivity of the film in use – in ASA or DIN.
+
+The indicator hinges out to accept the lid of a film carton informing the user of film type, as well as sensitivity.
+
+## Loading the magazine
+
+The magazine may be loaded on, or off the camera. If the magazine is to be loaded off the camera then the magazine slide must be inserted, and have its flat side towards the rear of the magazine. This facilitates removal of the roll holder for loading.
+
+1) Fold out the roll holder key.
+
+2) Turn the key **counter-clockwise** and withdraw the roll holder.
+
+3) Place an empty spool under the spool clamp bar – closest to the splined knob. Insert a roll of film under the other end of the bar, ensuring that it is turned the same way as in the picture. Be careful to remove **all** the paper tape that surrounds a new roll of film.
+
+4) Turn the roll holder key **clockwise** so that the film clamp opens. Pull 3 to 4 in. of paper backing off the film roll and slide the edge under the clamp.
+
+5) Insert the tongue of the backing paper into the slot in the take-up spool.
+
+6) Turn the splined knob **clockwise** until the arrow on the paper backing is opposite the triangular index on the spool clamp bar.
+
+7) Turn the roll holder key **counter-clockwise** and insert the roll holder into the magazine – jiggling it a little if it does not click into place. Lock the roll holder into the magazine by turning the key **clockwise.**
+
+8) Fold out the film crank and rotate it **clockwise** about ten turns until it stops. Refold the crank.
+
+Number 1 will now be displayed in the frame counter window and the magazine is loaded – ready for use.
+
+10</pre></td>
+    </tr>
+    <tr id="page-14">
+      <td><p class="meta">PDF page 14</p><a href="../pages/page_014.png"><img src="../pages/page_014.png" alt="Scan of PDF page 14"></a></td>
+      <td><p class="meta">Confidence: mean 0.833, min 0.500, 9 lines</p><pre>4
+7 <span class="score">(0.50)</span>
+2
+5 <span class="score">(0.50)</span>
+8
+3
+6
+Ozldi <span class="score">(0.50)</span>
+11</pre></td>
+      <td><pre>[Diagram 1: Side view of the film magazine end with its winding key folded flat. Two red arrows point right at the edges of the folded key, and a large red arrow points left from the key&#x27;s centre, showing the key being unfolded and pulled out.]
+
+[Diagram 2: The magazine end cover, held by the key, being removed. A red curved arrow shows the key turning counterclockwise, and two red arrows point left, showing the film insert being withdrawn. The insert is partly visible and marked &quot;HASSEL&quot;.]
+
+[Diagram 3: A hand placing a roll of film labelled &quot;P120&quot; into the film insert. The insert is marked &quot;HASSELBLAD&quot; and &quot;001&quot;.]
+
+[Diagram 4: The film insert with the paper leader drawn across it, held by a finger. Red arrows show the leader being pulled up and away. A red curved arrow with a dashed outline shows the leader threading under the roller, and a red curved arrow at the key on the end shows it turning clockwise.]
+
+[Diagram 5: The film insert with the paper leader inserted into the take-up spool slot. A red arrow points up along the leader, and a red curved arrow shows the take-up spool rotating.]
+
+[Diagram 6: End view of the film insert showing the film spool and the empty take-up spool, with the insert marked &quot;HASSELBLAD&quot;. A red curved arrow at upper right shows the spool being turned clockwise. A black arrow on the lower spool points right.]
+
+[Diagram 7: The film insert being slid back into the magazine housing, with the insert marked &quot;HASSE&quot;. Red arrows at top and bottom point right, showing the direction of insertion. A red curved arrow shows the key turning clockwise.]
+
+[Diagram 8: The assembled film magazine with the winding crank unfolded. A red curved arrow shows the crank being turned counterclockwise.]
+
+11</pre></td>
+    </tr>
+    <tr id="page-15">
+      <td><p class="meta">PDF page 15</p><a href="../pages/page_015.png"><img src="../pages/page_015.png" alt="Scan of PDF page 15"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 32 lines</p><pre>Removing film from the magazine
+When the last frame has been exposed, and
+wound on, the magazine is blocked for further
+release.
+Wind off the film by folding out the film winding
+crank, and rotating it clockwise until the film is
+felt to clear the spool.
+The roll holder may now be withdrawn from the
+magazine and the exposed film removed.
+General
+The magazine&#x27;s film winder crank is only
+blocked at frame 1. A partially exposed film
+may be wound off at any frame thereafter.
+Left hand grip
+The accompanying picture shows the best way
+to hold the camera whilst shooting.
+The camera is cradled in the left hand with the
+left index finger on the release button.
+This leaves the right hand free for rewinding,
+focusing, exposure settings and change of lens
+or magazine.
+Make a habit of the left hand grip!
+Focus and shoot
+Remove the magazine slide from the magazine.
+A safety interlock now prevents magazine re-
+moval. The release button (previously blocked)
+is freed ready for exposure.
+Rotate the focusing ring on the lens until the
+subject is sharp in the viewfinder.
+Depress the shutter release button to fire the
+camera.
+12</pre></td>
+      <td><pre>## Removing film from the magazine
+
+When the last frame has been exposed, and wound on, the magazine is blocked for further release.
+
+Wind off the film by folding out the film winding crank, and rotating it clockwise until the film is felt to clear the spool.
+
+The roll holder may now be withdrawn from the magazine and the exposed film removed.
+
+## General
+
+The magazine&#x27;s film winder crank is only blocked at frame 1. A partially exposed film may be wound off at any frame thereafter.
+
+[Photo: A Hasselblad medium-format camera with a folding waist-level viewfinder hood open on top and a lens mounted at the front, seen from the left side. The camera is cradled in a left hand, with the fingers wrapped under and around the body and the index finger positioned on the release button at the front. The side winding crank and the film magazine at the rear are visible. No callout labels.]
+
+## Left hand grip
+
+The accompanying picture shows the best way to hold the camera whilst shooting.
+
+The camera is cradled in the left hand with the left index finger on the release button.
+
+This leaves the right hand free for rewinding, focusing, exposure settings and change of lens or magazine.
+
+Make a habit of the left hand grip!
+
+## Focus and shoot
+
+Remove the magazine slide from the magazine. A safety interlock now prevents magazine removal. The release button (previously blocked) is freed ready for exposure.
+
+Rotate the focusing ring on the lens until the subject is sharp in the viewfinder.
+
+Depress the shutter release button to fire the camera.
+
+12</pre></td>
+    </tr>
+    <tr id="page-16">
+      <td><p class="meta">PDF page 16</p><a href="../pages/page_016.png"><img src="../pages/page_016.png" alt="Scan of PDF page 16"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 44 lines</p><pre>Exposure
+As a general rule for all exposure with the time
+exposure lock at the O setting, the shutter re-
+lease must be kept depressed until the built-in
+leaf shutter has opened and closed fully. This is
+especially important at shutter speeds from 1s to
+1/15 S.
+If pressure on the release is relaxed too soon, the
+auxiliary shutter will terminate the exposure pre-
+maturely.
+The auxiliary shutter, which consists of two
+blinds, can be seen through the rear opening of
+the camera body.
+Warning signal
+There is a red marking on the shutter speed scale
+opposite the 1, 1/2, and 1/4 s. This is to warn
+against possible exposure errors. The auxiliary
+shutter remains open as long as pressure is
+maintained on the shutter release.
+Double exposure
+Proceed as follows when multiple exposures are
+desired on the same frame:
+Depress the main release button and make the
+initial exposure.
+Insert the magazine slide and remove the maga-
+zine.
+Rewind the camera with one full revolution of the
+winding crank.
+Replace the magazine and remove the slide.
+The unit is now ready to make a second exposu-
+re on the same frame.
+Additional exposures may be made in the same
+manner.
+F B 1 2 4
+22
+5
+8 15 30 60 15293
+22 16 11 8 56 4 28
+16
+11 8
+20 co
+25
+50
+13</pre></td>
+      <td><pre>## Exposure
+
+As a general rule for all exposure with the time exposure lock at the O setting, the shutter release must be kept depressed until the built-in leaf shutter has opened and closed fully. This is especially important at shutter speeds from 1 s to 1/15 s.
+
+If pressure on the release is relaxed too soon, the auxiliary shutter will terminate the exposure prematurely.
+
+The auxiliary shutter, which consists of two blinds, can be seen through the rear opening of the camera body.
+
+[Photo: Rear three-quarter view of the camera body with the magazine removed, showing the rear opening through which the two blinds of the auxiliary shutter are visible.]
+
+### Warning signal
+
+There is a red marking on the shutter speed scale opposite the 1, 1/2, and 1/4 s. This is to warn against possible exposure errors. The auxiliary shutter remains open as long as pressure is maintained on the shutter release.
+
+[Photo: Close-up of the lens barrel scales. Shutter speed scale reads &quot;F B 1 2 4 8 15 30 60 125 250 500&quot;, with a red line marking above the 1, 2 and 4 settings. Aperture scale below reads &quot;22 16 11 8 5.6 4 2.8&quot;. Depth-of-field scale reads &quot;22 16 11 8 4 | 4 8 11 16&quot;. Distance scale reads &quot;5 7 10 20&quot; and &quot;15 25 50&quot;.]
+
+## Double exposure
+
+Proceed as follows when multiple exposures are desired on the same frame:
+
+Depress the main release button and make the initial exposure.
+
+Insert the magazine slide and remove the magazine.
+
+Rewind the camera with one full revolution of the winding crank.
+
+Replace the magazine and remove the slide.
+
+The unit is now ready to make a second exposure on the same frame.
+
+Additional exposures may be made in the same manner.
+
+13</pre></td>
+    </tr>
+    <tr id="page-17">
+      <td><p class="meta">PDF page 17</p><a href="../pages/page_017.png"><img src="../pages/page_017.png" alt="Scan of PDF page 17"></a></td>
+      <td><p class="meta">Confidence: mean 0.952, min 0.500, 31 lines</p><pre>MADE IN SWEDEN BY
+VICTOR HASSELBLAD
+14
+SSELBLAD <span class="score">(0.50)</span>
+0,9 g. <span class="score">(0.50)</span>
+Time exposure lock
+The time exposure lock has two settings: 0 =
+disengaged) and T (= depressed shutter release
+locks in the depressed position until the lock is
+returned to the O setting).
+The T setting can thus be used for time exposure
+when the shutter is set at B.
+Film cannot be advanced until the lock is reset to
+O. <span class="score">(0.50)</span>
+The setting cannot be used in operation with a
+cable release.
+Pre-release
+To reduce the low level of camera-induced shake
+to a minimum, the camera can be pre-released
+by pressing the pre-release button. This is what
+happens when the pre-release button is pressed:
+the mirror flops up, then lens stops down to the
+preset working aperture, the auxiliary shutter
+opens, and the shutter closes (but remains cock-
+ed).
+When the shutter release is pressed, only the
+operation of the shutter remains. Since the image
+on the focusing screen disappears
+in a pre-
+released camera, a sports viewfinder is a good
+way to keep track of moving subjects.</pre></td>
+      <td><pre>[Photo: Close-up of the camera body&#x27;s lower front corner beside the lens, showing the time exposure lock dial marked &quot;O&quot; and &quot;T&quot; with a cable release screwed into the shutter release button. The lens barrel above shows partial text &quot;SSELBLAD&quot; and focusing scale markings.]
+
+## Time exposure lock
+
+The time exposure lock has two settings: O (= disengaged) and T (= depressed shutter release locks in the depressed position until the lock is returned to the O setting).
+
+The T setting can thus be used for time exposure when the shutter is set at B.
+
+Film cannot be advanced until the lock is reset to O.
+
+The setting cannot be used in operation with a cable release.
+
+[Photo: Side of the camera body showing a nameplate reading &quot;MADE IN SWEDEN BY VICTOR HASSELBLAD AB&quot; with a circled &quot;12&quot; above it and a film plane symbol below. A red arrow points upward to the pre-release button located below the lens mount area.]
+
+## Pre-release
+
+To reduce the low level of camera-induced shake to a minimum, the camera can be pre-released by pressing the pre-release button. This is what happens when the pre-release button is pressed: the mirror flops up, then lens stops down to the preset working aperture, the auxiliary shutter opens, and the shutter closes (but remains cocked).
+
+When the shutter release is pressed, only the operation of the shutter remains. Since the image on the focusing screen disappears in a pre-released camera, a sports viewfinder is a good way to keep track of moving subjects.
+
+14</pre></td>
+    </tr>
+    <tr id="page-18">
+      <td><p class="meta">PDF page 18</p><a href="../pages/page_018.png"><img src="../pages/page_018.png" alt="Scan of PDF page 18"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 29 lines</p><pre>Change of focusing hood or viewfinder
+The film magazine must be detached before the
+focusing hood or other viewfinder can be remov-
+ed.
+Remove the hood by sliding it to the rear in its
+guide slots.
+Slide the replacement finder into the slots and
+push it forward.
+Attach a magazine to the camera.
+Changing the magnifier
+The focusing hood has an easily interchangable
+magnifier, if you should need to compensate for
+eyesight variations.
+Magnifiers with correction factors from +3 to -4
+are available, and are easily interchanged by
+following these instructions:
+Remove the focusing hood from the camera and
+open it by lifting the lid firmly at the rear edge.
+Bring the magnifier to the viewing position by
+moving the oval button in the direction of the
+arrow.
+Push the magnifier half way back down to its
+folded position.
+Grip the lower edge of the magnifier between
+thumb and forefinger (through the underside of
+the hood), and pull firmly.
+Insertion of the replacement magnifier is the re-
+verse of the above procedure.
+15</pre></td>
+      <td><pre>[Photo: A camera body with the focusing hood attached on top. A red arrow above the hood points toward the rear, showing the direction to slide the hood off. A handwritten mark [illegible] appears on the hood. The camera&#x27;s nameplate on the side is [illegible].]
+
+## Change of focusing hood or viewfinder
+
+The film magazine must be detached before the focusing hood or other viewfinder can be removed.
+
+Remove the hood by sliding it to the rear in its guide slots.
+
+Slide the replacement finder into the slots and push it forward.
+
+Attach a magazine to the camera.
+
+[Photo: A hand holding the opened focusing hood removed from the camera, showing the round magnifier inside the hood.]
+
+## Changing the magnifier
+
+The focusing hood has an easily interchangable magnifier, if you should need to compensate for eyesight variations.
+
+Magnifiers with correction factors from +3 to −4 are available, and are easily interchanged by following these instructions:
+
+Remove the focusing hood from the camera and open it by lifting the lid firmly at the rear edge.
+
+Bring the magnifier to the viewing position by moving the oval button in the direction of the arrow.
+
+Push the magnifier half way back down to its folded position.
+
+Grip the lower edge of the magnifier between thumb and forefinger (through the underside of the hood), and pull firmly.
+
+Insertion of the replacement magnifier is the reverse of the above procedure.
+
+15</pre></td>
+    </tr>
+    <tr id="page-19">
+      <td><p class="meta">PDF page 19</p><a href="../pages/page_019.png"><img src="../pages/page_019.png" alt="Scan of PDF page 19"></a></td>
+      <td><p class="meta">Confidence: mean 0.959, min 0.300, 17 lines</p><pre>Changing the focusing screen
+The screen is quickly interchangeable without
+the requirement of special tools.
+Detach the magazine and viewfinder.
+Slide the screen latches to the side.
+16
+BAT SISTIN <span class="score">(0.30)</span>
+Cup your hand over the screen, and invert the
+camera.
+The screen will now drop into your hand.
+Insert the replacement screen, ensuring that the
+smooth flat side of the frame is uppermost, and
+that all four corners are seated on the support
+pins.
+It is not necessary to return the screen latches.
+This is done automatically when the viewfinder
+is replaced.</pre></td>
+      <td><pre>[Photo: Top view of the camera body with magazine and viewfinder removed, showing the focusing screen with a central cross. Two red arrows at the left and right edges of the screen point outward, indicating the screen latches being slid to the side.]
+
+## Changing the focusing screen
+
+The screen is quickly interchangeable without the requirement of special tools.
+
+Detach the magazine and viewfinder.
+
+Slide the screen latches to the side.
+
+[Photo: Side view of the camera body, inverted, with the &quot;500C/M&quot; nameplate visible on the side. Two red arrows below the camera point downward, indicating the screen dropping out of the camera.]
+
+Cup your hand over the screen, and invert the camera.
+
+The screen will now drop into your hand.
+
+Insert the replacement screen, ensuring that the smooth flat side of the frame is uppermost, and that all four corners are seated on the support pins.
+
+It is not necessary to return the screen latches. This is done automatically when the viewfinder is replaced.
+
+16</pre></td>
+    </tr>
+    <tr id="page-20">
+      <td><p class="meta">PDF page 20</p><a href="../pages/page_020.png"><img src="../pages/page_020.png" alt="Scan of PDF page 20"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 24 lines</p><pre>The winding crank
+One complete revolution of the winding crank
+re-cocks the camera and lens, it also transports
+the film one frame.
+Removing the winding crank
+It is preferable that the camera be fully wound-
+on during removal, and especially during repla-
+cement of the crank.
+Depress the latch button in the center of the
+winding crank and turn off the crank - counter
+clockwise.
+Attaching the winding crank
+Locate the winding crank against the camera&#x27;s
+Flash synchronization
+The Hasselblad 500C/M uses lenses from the
+Hasselblad CF series. These lenses have built-
+in leaf shutters with speeds from 1 to 1/500s.
+Flash
+synchronization occurs at full shutter
+opening via the PC flash terminal.
+Electronic flash units can be used at all shutter
+speeds, 1-1/500.
+locks on.
+17</pre></td>
+      <td><pre>[Photo: Close-up of the side of a Hasselblad camera body with the winding crank partially removed from its bayonet mount. A red arrow points to the latch button in the center of the winding crank. A curved red arrow next to the crank bayonet indicates the counter-clockwise direction for turning off the crank.]
+
+## The winding crank
+
+One complete revolution of the winding crank re-cocks the camera and lens, it also transports the film one frame.
+
+### Removing the winding crank
+
+It is preferable that the camera be fully wound-on during removal, and especially during replacement of the crank.
+
+Depress the latch button in the center of the winding crank and turn off the crank – **counter clockwise.**
+
+### Attaching the winding crank
+
+Locate the winding crank against the camera&#x27;s winding crank bayonet with the crank index opposite the camera index. Push in the crank lightly and turn it in a clockwise direction until it locks on.
+
+[Photo: Close-up of a Carl Zeiss lens mounted on a Hasselblad 500C/M camera body. A red circle highlights the PC flash terminal on the lens barrel.]
+
+## Flash synchronization
+
+The Hasselblad 500C/M uses lenses from the Hasselblad CF series. These lenses have built-in leaf shutters with speeds from 1 to 1/500s. Flash synchronization occurs at full shutter opening via the PC flash terminal.
+
+Electronic flash units can be used at all shutter speeds, 1–1/500.
+
+17</pre></td>
+    </tr>
+    <tr id="page-21">
+      <td><p class="meta">PDF page 21</p><a href="../pages/page_021.png"><img src="../pages/page_021.png" alt="Scan of PDF page 21"></a></td>
+      <td><p class="meta">Confidence: mean 0.983, min 0.500, 30 lines</p><pre>3s 41 <span class="score">(0.50)</span>
+Accessory mounts
+On the underside of the camera is a 3/8&quot; tripod
+socket. The socket is located in the center of a
+quick coupling plate that accepts pistol grips,
+and flash gun brackets. A special attachment is
+available for tripods that will receive, and lock on
+to, the camera&#x27;s quick coupling plate.
+In front of the strap lug on the left side of the
+camera is an accessory rail for the Hasselblad
+sports finder, spirit level, and adjustable flash
+shoe.
+The lenses accept filters and lens shades via
+internal and external bayonet mounts.
+18
+VICTOR HASSELBLAD
+Strap lugs
+Strap attachment
+Place the main body of the strap clip over one of
+the camera&#x27;s strap lugs. Press down on the tip of
+the clip and pull back so that the strap lug slips
+into the opening at the tip of the clip.
+Strap removal
+Lift the clip locking plate and slide the clip for-
+ward. The clip will then slide off the strap lug.
+Accessories
+A wide range of accessories is available for al-
+most every photographic purpose.
+Please see the Hasselblad Product Catalog for
+further information.</pre></td>
+      <td><pre>[Photo: Underside of the camera body seen at an angle, showing the quick coupling plate with the 3/8&quot; tripod socket at its center, and a separate tripod quick-coupling attachment (a rectangular plate with a lever) positioned below the camera. The lens barrel with distance scale markings is visible at the right.]
+
+## Accessory mounts
+
+On the underside of the camera is a 3/8&quot; tripod socket. The socket is located in the center of a quick coupling plate that accepts pistol grips, and flash gun brackets. A special attachment is available for tripods that will receive, and lock on to, the camera&#x27;s quick coupling plate.
+
+In front of the strap lug on the left side of the camera is an accessory rail for the Hasselblad sports finder, spirit level, and adjustable flash shoe.
+
+The lenses accept filters and lens shades via internal and external bayonet mounts.
+
+[Photo: Close-up of the side of the camera body showing a strap clip attached over a strap lug, with the leather strap extending upward. A nameplate reading &quot;MADE IN SWEDEN BY VICTOR HASSELBLAD&quot; is visible to the left, and a metal accessory rail runs vertically to the right of the strap lug.]
+
+## Strap lugs
+
+**Strap attachment**
+
+Place the main body of the strap clip over one of the camera&#x27;s strap lugs. Press down on the tip of the clip and pull back so that the strap lug slips into the opening at the tip of the clip.
+
+**Strap removal**
+
+Lift the clip locking plate and slide the clip forward. The clip will then slide off the strap lug.
+
+## Accessories
+
+A wide range of accessories is available for almost every photographic purpose.
+
+Please see the Hasselblad Product Catalog for further information.
+
+18</pre></td>
+    </tr>
+    <tr id="page-22">
+      <td><p class="meta">PDF page 22</p><a href="../pages/page_022.png"><img src="../pages/page_022.png" alt="Scan of PDF page 22"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 24 lines</p><pre>Hasselblad SWC/M
+The Hasselblad SWC/M is a wide-angle Through the lens viewing is possible via a
+camera with a permanently attached lens
+focusing screen adapter, and any one of
+and an optical viewfinder.
+the many Hasselblad viewfinders.
+The uncompromising design of the 38 mm
+The Hasselblad SWC/M consists of three
+f/4.5 Zeiss Biogon CF yields a 90°diagonal
+main components:
+angle of view and displays exceptional dis-
+tortion correction. Spirit level alignment is
+The camera body with its permanently
+viewed at eye level via a prism mounted on
+attached Biogon lens, the detachable opti-
+the optical viewfinder.
+cal viewfinder, and the interchangeable
+film magazine, which also fits the other
+Hasselblad cameras.
+Operating instructions for the lens and ma-
+gazine are covered under the 500C/M sec-
+tion of this instruction manual.
+Blogon 4,8/38
+19</pre></td>
+      <td><pre># Hasselblad SWC/M
+
+The Hasselblad SWC/M is a wide-angle camera with a permanently attached lens and an optical viewfinder.
+
+The uncompromising design of the 38 mm f/4.5 Zeiss Biogon CF yields a 90°diagonal angle of view and displays exceptional distortion correction. Spirit level alignment is viewed at eye level via a prism mounted on the optical viewfinder.
+
+Through the lens viewing is possible via a focusing screen adapter, and any one of the many Hasselblad viewfinders.
+
+The Hasselblad SWC/M consists of three main components:
+
+The camera body with its permanently attached Biogon lens, the detachable optical viewfinder, and the interchangeable film magazine, which also fits the other Hasselblad cameras.
+
+Operating instructions for the lens and magazine are covered under the 500C/M section of this instruction manual.
+
+[Photo: Front three-quarter view of the Hasselblad SWC/M camera with the optical viewfinder mounted on top, the film magazine with winding crank on the left side, and the large wide-angle lens on the front. Lens markings read &quot;Biogon 4,5/38&quot;, &quot;T*&quot;, &quot;Carl Zeiss&quot; and a serial number &quot;6663709&quot; (partially legible); the lens barrel shows distance and depth-of-field scales. No callout labels.]
+
+19</pre></td>
+    </tr>
+    <tr id="page-23">
+      <td><p class="meta">PDF page 23</p><a href="../pages/page_023.png"><img src="../pages/page_023.png" alt="Scan of PDF page 23"></a></td>
+      <td><p class="meta">Confidence: mean 0.974, min 0.500, 57 lines</p><pre>27
+26
+25.
+24.
+23.
+22.
+21
+20
+19
++972L99
+1. Viewfinder
+2. Reflector prism for spirit
+level
+3. Spirit level
+4. Focusing ring
+5. Distance scale (feet and
+meters)
+6. Central index
+7. Depth-of-field scale
+8. Aperture ring with aperture
+scale
+9. Shutter speed scale
+20
+18 17 16
+15 14 13
+10. PC flash terminal
+11. Shutter speed ring
+12. External and internal lens
+accessory mounts
+13. Exposure value scale
+14. Exposure value index
+15. Button for cross-coupling of
+shutter speed and aperture
+rings
+16. Shutter status indicator
+17. Winding crank
+18. Magazine status indicator
+3 <span class="score">(0.50)</span>
+4
+5 <span class="score">(0.50)</span>
+6
+8 <span class="score">(0.50)</span>
+9
+-11
+12
+Brogon
+1.5/38
+19. Frame counter
+20. Film plane indicator
+21. Film winding crank
+22. Magazine designation
+23. Time exposure lock
+24. Shutter release button
+25. Threaded cable release
+socket
+26. Magazine catch
+27. Protective rubber ring</pre></td>
+      <td><pre>[Diagram: Front three-quarter view of a medium-format camera (Hasselblad SWC-type) with a detachable optical viewfinder shown raised above the accessory shoe, a film magazine attached at the rear, and a fixed wide-angle lens marked &quot;Carl Zeiss Biogon 4.5/38 T*&quot; and serial number &quot;6572464&quot;. Numbered callouts with leader lines point to parts as follows:
+- 1 – the viewfinder body, raised above the camera
+- 2 – the reflector prism projecting from the side of the viewfinder
+- 3 – the spirit level on the camera top
+- 4 – the knurled focusing ring on the lens
+- 5 – the distance scale on the lens barrel
+- 6 – the central index on the lens barrel
+- 7 – the depth-of-field scale
+- 8 – the aperture ring with aperture scale
+- 9 – the shutter speed scale
+- 10 – the PC flash terminal on the side of the lens
+- 11 – the shutter speed ring
+- 12 – the front rim of the lens (external and internal lens accessory mounts)
+- 13 – the exposure value scale on the lower lens barrel
+- 14 – the exposure value index
+- 15 – the cross-coupling button on the lens barrel
+- 16 – the shutter status indicator on the camera body side
+- 17 – the winding crank on the camera body side
+- 18 – the magazine status indicator on the side of the film magazine
+- 19 – the frame counter on the film magazine
+- 20 – the film plane indicator on the film magazine
+- 21 – the film winding crank on the film magazine
+- 22 – the magazine designation on the film magazine
+- 23 – the time exposure lock on the camera top
+- 24 – the shutter release button on the camera top
+- 25 – the threaded cable release socket at the shutter release button
+- 26 – the magazine catch on top of the film magazine
+- 27 – the protective rubber ring on the viewfinder eyepiece]
+
+1. Viewfinder
+2. Reflector prism for spirit level
+3. Spirit level
+4. Focusing ring
+5. Distance scale (feet and meters)
+6. Central index
+7. Depth-of-field scale
+8. Aperture ring with aperture scale
+9. Shutter speed scale
+10. PC flash terminal
+11. Shutter speed ring
+12. External and internal lens accessory mounts
+13. Exposure value scale
+14. Exposure value index
+15. Button for cross-coupling of shutter speed and aperture rings
+16. Shutter status indicator
+17. Winding crank
+18. Magazine status indicator
+19. Frame counter
+20. Film plane indicator
+21. Film winding crank
+22. Magazine designation
+23. Time exposure lock
+24. Shutter release button
+25. Threaded cable release socket
+26. Magazine catch
+27. Protective rubber ring
+
+20</pre></td>
+    </tr>
+    <tr id="page-24">
+      <td><p class="meta">PDF page 24</p><a href="../pages/page_024.png"><img src="../pages/page_024.png" alt="Scan of PDF page 24"></a></td>
+      <td><p class="meta">Confidence: mean 0.977, min 0.500, 22 lines</p><pre>28 29
+30
+36
+35
+SWIN <span class="score">(0.50)</span>
+31
+34
+33
+32
+28. Roll holder key
+29. Film consumption indicator
+30. Film speed and type indi-
+cator
+31. Magazine slide -
+32. Magazine support hooks
+33. Quick coupling plate
+34. Tripod sockets - 3/8&quot; and
+1/4&quot;
+35. PC flash terminal
+36. Strap lug
+-
+21</pre></td>
+      <td><pre>[Diagram: Line drawing of a Hasselblad SWC/M camera viewed from the rear, with the film magazine partially separated from the body to show the film opening. The lens with its knurled focusing ring is at the lower left, a viewfinder sits on top of the body, and &quot;SWC/M&quot; is printed on the side of the body. Red callout numbers and red leader lines point to parts:
+- 28 – circular key on the magazine&#x27;s winding side (roll holder key)
+- 29 – small indicator next to the key (film consumption indicator)
+- 30 – square panel with a round dial on the magazine (film speed and type indicator)
+- 31 – long vertical slide at the front edge of the magazine (magazine slide)
+- 32 – hooks at the lower edge where the magazine meets the body (magazine support hooks)
+- 33 – plate on the underside of the camera (quick coupling plate)
+- 34 – threaded holes in the bottom plate (tripod sockets)
+- 35 – terminal on the lens barrel (PC flash terminal)
+- 36 – knob on the side of the camera body (strap lug)]
+
+28. Roll holder key
+29. Film consumption indicator
+30. Film speed and type indicator
+31. Magazine slide
+32. Magazine support hooks
+33. Quick coupling plate
+34. Tripod sockets – 3/8″ and 1/4″
+35. PC flash terminal
+36. Strap lug
+
+21</pre></td>
+    </tr>
+    <tr id="page-25">
+      <td><p class="meta">PDF page 25</p><a href="../pages/page_025.png"><img src="../pages/page_025.png" alt="Scan of PDF page 25"></a></td>
+      <td><p class="meta">Confidence: mean 0.984, min 0.500, 61 lines</p><pre>27-
+-1
+-2
+26
+25
+24
+23
+5 <span class="score">(0.50)</span>
+6
+22.
+21-
+20
+19.
+12)
+8
+9
+-10
+-11
+12
+0°
+Biogon
+45/
+197219 <span class="score">(0.50)</span>
+18 17 16
+15 14
+13
+1. Viewfinder
+2. Reflector prism for spirit
+level
+3. Spirit level
+4. Focusing ring
+5. Distance scale (feet and
+meters)
+6. Central index
+7. Depth-of-field scale
+8. Aperture ring with aperture
+scale
+9. Shutter speed scale
+20
+10. PC flash terminal
+11. Shutter speed ring
+12. External and internal lens
+accessory mounts
+13. Exposure value scale
+14. Exposure value index
+15. Button for cross-coupling of
+shutter speed and aperture
+rings
+16. Shutter status indicator
+17. Winding crank
+18. Magazine status indicator
+19. Frame counter
+20. Film plane indicator
+21. Film winding crank
+22. Magazine designation
+23. Time exposure lock
+24. Shutter release button
+25. Threaded cable release
+socket
+26. Magazine catch
+27. Protective rubber ring</pre></td>
+      <td><pre>[Diagram: Front three-quarter view of the camera with a viewfinder mounted on top, a lens marked &quot;Biogon 4,5/38&quot;, &quot;T\*&quot; and &quot;Carl Zeiss&quot;, and a film magazine at the rear marked &quot;12&quot;. Numbered callouts point to:
+1 – the viewfinder body on top of the camera;
+2 – the small reflector prism at the front side of the viewfinder;
+3 – the round spirit level on the top plate;
+4 – the knurled focusing ring on the lens;
+5 – the distance scale on the lens;
+6 – the central index on the lens;
+7 – the depth-of-field scale;
+8 – the aperture ring with aperture scale;
+9 – the shutter speed scale;
+10 – the PC flash terminal on the side of the lens;
+11 – the shutter speed ring;
+12 – the front rim of the lens (accessory mounts);
+13 – the exposure value scale on the lens barrel;
+14 – the exposure value index;
+15 – the button on the lens barrel for cross-coupling the rings;
+16 – the small round shutter status indicator on the camera body below the winding crank;
+17 – the winding crank on the side of the camera body;
+18 – the magazine status indicator on the lower side of the magazine;
+19 – the frame counter on the side of the magazine;
+20 – the film plane indicator mark on the magazine;
+21 – the film winding crank on the magazine;
+22 – the magazine designation &quot;12&quot; on the magazine;
+23 – the time exposure lock next to the shutter release button;
+24 – the shutter release button on the top plate;
+25 – the threaded cable release socket in the shutter release button;
+26 – the magazine catch on top of the magazine;
+27 – the protective rubber ring on the viewfinder eyepiece.]
+
+1. Viewfinder
+2. Reflector prism for spirit level
+3. Spirit level
+4. Focusing ring
+5. Distance scale (feet and meters)
+6. Central index
+7. Depth-of-field scale
+8. Aperture ring with aperture scale
+9. Shutter speed scale
+10. PC flash terminal
+11. Shutter speed ring
+12. External and internal lens accessory mounts
+13. Exposure value scale
+14. Exposure value index
+15. Button for cross-coupling of shutter speed and aperture rings
+16. Shutter status indicator
+17. Winding crank
+18. Magazine status indicator
+19. Frame counter
+20. Film plane indicator
+21. Film winding crank
+22. Magazine designation
+23. Time exposure lock
+24. Shutter release button
+25. Threaded cable release socket
+26. Magazine catch
+27. Protective rubber ring
+
+20</pre></td>
+    </tr>
+    <tr id="page-26">
+      <td><p class="meta">PDF page 26</p><a href="../pages/page_026.png"><img src="../pages/page_026.png" alt="Scan of PDF page 26"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 27 lines</p><pre>How to hold the SWC/M
+Cradle the lens in your left hand with your thumb
+and index finger curled around the focusing ring.
+The right hand steadies the grip, while the right
+index finger rests on the shutter release.
+Exposure
+The Hasselblad SWC/M has a top mounted
+shutter release button. When making an expo-
+sure depress the shutter release smoothly.
+Note. In order to release the camera the shutter
+must be cocked and the magazine slide remov-
+ed.
+The release button is threaded to accept a stan-
+dard cable release.
+22
+Time exposure lock.
+The time exposure lock has two setting:
+O = Normal setting
+T = Release button locks after being depressed
+and remains locked until the lever is returned to
+the O setting.
+The T setting is used for time exposures when
+the lens is set at B.
+The film cannot be advanced with the crank until
+the exposure lock is returned to the O setting.
+Note. This locking function will not operate when
+a cable release is attached.</pre></td>
+      <td><pre>[Photo: A woman holding a Hasselblad SWC/M camera up to her face, eye at the top-mounted optical viewfinder. Her left hand cradles the lens (Biogon 4.5/38, Carl Zeiss) with thumb and index finger around the focusing ring; her right hand steadies the grip with index finger on the shutter release.]
+
+## How to hold the SWC/M
+
+Cradle the lens in your left hand with your thumb and index finger curled around the focusing ring. The right hand steadies the grip, while the right index finger rests on the shutter release.
+
+## Exposure
+
+The Hasselblad SWC/M has a top mounted shutter release button. When making an exposure depress the shutter release smoothly.
+
+**Note.** In order to release the camera the shutter must be cocked and the magazine slide removed.
+
+The release button is threaded to accept a standard cable release.
+
+[Photo: Three views of the shutter release button on top of the camera body. Top: a finger pressing the top-mounted release button, next to the viewfinder mount and the HASSELBLAD nameplate. Bottom left: a cable release screwed into the release button, with the time exposure lock lever beside it and markings &quot;O&quot; and &quot;T&quot; on the collar. Bottom right: close-up of the threaded release button with the time exposure lock lever and the &quot;O&quot; and &quot;T&quot; markings.]
+
+## Time exposure lock.
+
+The time exposure lock has two setting:
+O = Normal setting
+T = Release button locks after being depressed and remains locked until the lever is returned to the O setting.
+
+The T setting is used for time exposures when the lens is set at B.
+
+The film cannot be advanced with the crank until the exposure lock is returned to the O setting.
+
+**Note.** This locking function will not operate when a cable release is attached.
+
+22</pre></td>
+    </tr>
+    <tr id="page-27">
+      <td><p class="meta">PDF page 27</p><a href="../pages/page_027.png"><img src="../pages/page_027.png" alt="Scan of PDF page 27"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 30 lines</p><pre>-
+Viewfinder
+The optical finder shows the picture area, and a
+simultanuous view - via the prismatic reflector -
+of the spirit level. The reflector makes it possible
+to keep a continuous check on the spirit level
+during hand held use of the camera.
+The finder has the same angle of view as the
+lens but takes in a slightly larger field because of
+the finders location behind the lens:
+Top of the field: 6 ins larger.
+Bottom of field: finder and lens coincide.
+Sides of fields: 3 ins wider on each side.
+This is the case regardless of the lens to subject
+distance.
+15,5 cm
+6 inch
+Lens
+The lens is fixed and is not interchangeable with
+other Hasselblad lenses.
+Operating instructions are covered under the
+lens section of the 500C/M instructions in this
+manual.
+Magazines
+The SWC/M accepts all Hasselblad magazines
+with the exception of the Polaroid 80 magazines.
+For operating instructions please refer to the
+magazine section of the 500C/M instructions in
+this manual.
+23</pre></td>
+      <td><pre>[Photo: Top-down view of the Hasselblad SWC/M camera showing the optical viewfinder (conical eyepiece) mounted above the lens, with the prismatic reflector on the left side. A red arrow points downward from the prismatic reflector to the circular spirit level on the camera body below it.]
+
+## Viewfinder
+
+The optical finder shows the picture area, and a simultanuous view – via the prismatic reflector – of the spirit level. The reflector makes it possible to keep a continuous check on the spirit level during hand held use of the camera.
+
+The finder has the same angle of view as the lens but takes in a slightly larger field because of the finders location behind the lens:
+
+Top of the field: 6 ins larger.
+Bottom of field: finder and lens coincide.
+Sides of fields: 3 ins wider on each side.
+
+This is the case regardless of the lens to subject distance.
+
+[Diagram: Side view of the SWC/M camera with the viewfinder mounted on top behind the lens and the magazine (labeled &quot;SWC/M&quot;) at the rear. Red lines extend forward from the viewfinder and from the lens, showing their respective fields of view. At the top, the viewfinder&#x27;s upper boundary line and the lens&#x27;s upper boundary line diverge, with a vertical red measurement arrow between them labeled &quot;15,5 cm&quot; and &quot;6 inch&quot;. At the bottom, the lower boundary lines of the finder and lens converge and coincide.]
+
+## Lens
+
+The lens is fixed and is not interchangeable with other Hasselblad lenses.
+
+Operating instructions are covered under the lens section of the 500C/M instructions in this manual.
+
+## Magazines
+
+The SWC/M accepts all Hasselblad magazines with the exception of the Polaroid 80 magazines.
+
+For operating instructions please refer to the magazine section of the 500C/M instructions in this manual.
+
+23</pre></td>
+    </tr>
+    <tr id="page-28">
+      <td><p class="meta">PDF page 28</p><a href="../pages/page_028.png"><img src="../pages/page_028.png" alt="Scan of PDF page 28"></a></td>
+      <td><p class="meta">Confidence: mean 1.000, min 1.000, 27 lines</p><pre>Magazine for Polaroid film
+When a magazine for Polaroid film is used with
+the SWC/M the film crank cannot complete its
+wind.
+In order to cock the camera proceed as follows:
+Fold out the crank.
+Attach a magazine for Polaroid film.
+Make an exposure.
+Move the crank up and down with a pumping
+motion until it stops.
+24
+The focusing screen adapter 41025
+The focusing screen adapter is used when an
+exact check on depth of field or image composi-
+tion is necessary. It is attached to the camera in
+the same way as a magazine.
+The focusing screen adapter accepts all Hassel-
+blad viewfinders and focusing hoods.
+Viewing via the focusing screen adapter
+41025
+Set the shutter at B.
+Set the lens at the maximum aperture.
+Set the time exposure lock at T.
+When viewing is completed, return the time ex-
+posure lock to O which closes the shutter.
+Cock the shutter and remove the focusing
+screen.</pre></td>
+      <td><pre>[Photo: Hasselblad SWC/M camera with a Polaroid film magazine attached at the back and an optical viewfinder mounted on top. The film crank on the side of the camera is folded out; a red curved double-headed arrow beside it indicates the up-and-down pumping motion of the crank.]
+
+## Magazine for Polaroid film
+
+When a magazine for Polaroid film is used with the SWC/M the film crank cannot complete its wind.
+
+In order to cock the camera proceed as follows:
+
+Fold out the crank.
+
+Attach a magazine for Polaroid film.
+
+Make an exposure.
+
+Move the crank up and down with a pumping motion until it stops.
+
+[Photo: Side view of the SWC/M camera with the focusing screen adapter 41025 attached at the back in place of a magazine, fitted with a magnifying viewfinder ending in a rubber eyecup on the left; the lens points to the right.]
+
+## The focusing screen adapter 41025
+
+The focusing screen adapter is used when an exact check on depth of field or image composition is necessary. It is attached to the camera in the same way as a magazine.
+
+The focusing screen adapter accepts all Hasselblad viewfinders and focusing hoods.
+
+## Viewing via the focusing screen adapter 41025
+
+Set the shutter at B.
+
+Set the lens at the maximum aperture.
+
+Set the time exposure lock at T.
+
+When viewing is completed, return the time exposure lock to O which closes the shutter.
+
+Cock the shutter and remove the focusing screen.
+
+24</pre></td>
+    </tr>
+  </tbody>
+</table>
+</div>
